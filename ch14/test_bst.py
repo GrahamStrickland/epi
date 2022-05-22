@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
+
+
 from nose.tools import assert_equal
-from bst import BstNode, search_bst
+from .bst import BstNode, search_bst
 
 
 def test_search_in_bst0():
