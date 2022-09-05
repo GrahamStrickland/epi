@@ -6,7 +6,7 @@ from typing import List
 from ..dutch_national_flag2 import dutch_flag_partition
 
 
-def test_dutch_flag_partition0():
+def test_dutch_flag_partition():
     A = [0,1,2,0,2,1,1]
     pivot_index = 3
     pivot = A[pivot_index]
@@ -14,8 +14,32 @@ def test_dutch_flag_partition0():
     assert_equal(is_partitioned(pivot, A), True)
 
 
-def test_dutch_flag_partition1():
+def test_dutch_flag_partition2():
     A = [0,1,2,0,2,1,1]
+    pivot_index = 2
+    pivot = A[pivot_index]
+    dutch_flag_partition(pivot_index, A)
+    assert_equal(is_partitioned(pivot, A), True)
+
+
+def test_dutch_flag_partition3():
+    A = [4,55,61,2,13,67,98,100,52,55,4,13,98]
+    pivot_index = 2
+    pivot = A[pivot_index]
+    dutch_flag_partition(pivot_index, A)
+    assert_equal(is_partitioned(pivot, A), True)
+
+
+def test_dutch_flag_partition5():
+    A = [i for i in reversed(range(100))]
+    pivot_index = 2
+    pivot = A[pivot_index]
+    dutch_flag_partition(pivot_index, A)
+    assert_equal(is_partitioned(pivot, A), True)
+
+
+def test_dutch_flag_partition5():
+    A = [i // 2 for i in reversed(range(100))]
     pivot_index = 2
     pivot = A[pivot_index]
     dutch_flag_partition(pivot_index, A)
@@ -37,6 +61,6 @@ def is_partitioned(pivot: int, A: List[int]) -> bool:
             elif i < pivot:
                 return False
         else:
-            if i < pivot or i == pivot:
+            if i <= pivot or i == pivot:
                 return False
     return True
