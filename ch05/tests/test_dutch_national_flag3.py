@@ -30,7 +30,7 @@ def test_dutch_flag_partition3():
     assert_equal(is_partitioned(pivot, A), True)
 
 
-def test_dutch_flag_partition5():
+def test_dutch_flag_partition4():
     A = [i for i in reversed(range(100))]
     pivot_index = 2
     pivot = A[pivot_index]
