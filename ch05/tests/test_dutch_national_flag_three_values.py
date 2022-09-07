@@ -43,4 +43,4 @@ def is_partitioned(A: List[int]) -> bool:
         while j < len(A) and A[j] == val:
             j += 1
     
-    return i == len(A)
+    return j == len(A)
