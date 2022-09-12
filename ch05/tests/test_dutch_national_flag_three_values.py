@@ -6,7 +6,7 @@ from typing import List
 from ..dutch_national_flag_three_values import dutch_flag_three_values
 
 
-def test_dutch_flag_():
+def test_dutch_flag_three_values():
     A = [0,1,2,0,2,1,1]
     dutch_flag_three_values(A)
     assert_equal(is_partitioned(A), True)
@@ -39,6 +39,8 @@ def test_dutch_flag_three_values5():
 def is_partitioned(A: List[int]) -> bool:
     j = 0
     for i in range(3):
+        if j >= len(A):
+            break
         val = A[j] 
         while j < len(A) and A[j] == val:
             j += 1
