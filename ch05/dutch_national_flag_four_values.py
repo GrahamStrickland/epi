@@ -5,15 +5,13 @@ from typing import List
 
 
 def dutch_flag_four_values(A: List[int]) -> None:
-    i = 2
+    i = 1
     pivots = [0, 1, len(A) - 1] # Indices of pivots.
     vals = [A[pivots[0]]]       # Values of pivots.
     vals += [float('inf')] * 3
     while i < pivots[2]:    
-        if A[i] == vals[0]: # Swap A[i] to first partition.
-            A[i], A[pivots[0] + 1] = A[pivots[0] + 1], A[i]
-            pivots[0], pivots[1], i = pivots[0] + 1, pivots[1] + 1, i + 1
-        else:   # Find remaining pivot values.
+        # Find remaining pivot values.
+        if A[i] != vals[0]:
             if vals[3] == float('inf'):
                 vals[3] = A[i]
                 A[i], A[pivots[2]] = A[pivots[2]], A[i]
@@ -22,12 +20,16 @@ def dutch_flag_four_values(A: List[int]) -> None:
             elif vals[1] == float('inf') and A[i] != (vals[3] or vals[2]):
                 vals[1] = A[i]
 
-            # Swap A[i] to second, third, or fourth partition.
-            if A[i] == vals[3]:
-                A[i], A[pivots[2] - 1] = A[pivots[2] - 1], A[i]
-                pivots[2] -= 1
-            elif A[i] == vals[2]:
-                A[i], A[pivots[1] + 1] = A[pivots[1] + 1], A[i]
-            else:
-                pivots[1] += 1
-            i += 1
+        # Swap A[i] to correct partition.
+        if A[i] == vals[3]:
+            A[i], A[pivots[2] - 1] = A[pivots[2] - 1], A[i]
+            pivots[2] -= 1
+        elif A[i] == vals[2]:
+            A[i], A[pivots[1] + 1] = A[pivots[1] + 1], A[i]
+        elif A[i] == vals[1]:
+            A[i], A[pivots[1]] = A[pivots[1]], A[i]
+            pivots[1] += 1
+        else:
+            A[i], A[pivots[0] + 1] = A[pivots[0] + 1], A[i]
+            pivots[0], pivots[1] = pivots[0] + 1, pivots[1] + 1 
+        i += 1
