@@ -5,7 +5,7 @@ from nose.tools import assert_equal
 from ..spiral_ordering import matrix_in_spiral_order
 
 
-def test_matrix_in_spiral_order0() -> None:
+def test_matrix_in_spiral_order() -> None:
     square_matrix = [[1,2,3],
                      [4,5,6],
                      [7,8,9]]
@@ -14,7 +14,7 @@ def test_matrix_in_spiral_order0() -> None:
     assert_equal(obs, exp)
 
 
-def test_matrix_in_spiral_order1() -> None:
+def test_matrix_in_spiral_order2() -> None:
     square_matrix = [[1,2,3,4],
                      [5,6,7,8],
                      [9,10,11,12],
