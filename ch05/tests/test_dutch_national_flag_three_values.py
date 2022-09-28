@@ -38,7 +38,7 @@ def test_dutch_flag_three_values5():
 
 def is_partitioned(A: List[int]) -> bool:
     j = 0
-    for i in range(3):
+    for _ in range(3):
         if j >= len(A):
             break
         val = A[j] 
