@@ -1,19 +1,21 @@
 #! /usr/bin/env python3
 
 
+from math import sqrt, floor
 from typing import List
 
 
-def generate_spiral_order(d: int) -> List[List[int]]:
+def generate_spiral_order_from_sequence(P: List[int]) -> List[List[int]]:
     shift = ((0, 1), (1, 0), (0, -1), (-1, 0))
     direction = x = y = 0
-    spiral_arr = [[0 for _ in range(d)] for _ in range(d)]
+    dimension = floor(sqrt(len(P)))
+    spiral_arr = [[0 for _ in range(dimension)] for _ in range(dimension)]
 
-    for i in range(1, d**2 + 1):
+    for i in P:
         spiral_arr[x][y] = i
         next_x, next_y = x + shift[direction][0], y + shift[direction][1]
-        if (next_x not in range(d)
-                or next_y not in range(d)
+        if (next_x not in range(dimension)
+                or next_y not in range(dimension)
                 or spiral_arr[next_x][next_y] != 0):
             direction = (direction + 1) & 3
             next_x, next_y = x + shift[direction][0], y + shift[direction][1]
