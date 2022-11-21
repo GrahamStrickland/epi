@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
 
-from typing import List
-
-
-def even_odd(A: List[int]) -> None:
+def even_odd(A: list[int]) -> None:
     next_even, next_odd = 0, len(A) - 1
     while next_even < next_odd:
         if A[next_even] % 2 == 0:

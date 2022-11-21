@@ -34,7 +34,7 @@ def test_longest_subarray_equal4() -> None:
 
 
 def test_longest_subarray_equal5() -> None:
-    A = [7, 7, 7, 7, 7, 7 , 2, 7, 7, 7, 7, 7]
+    A = [7, 7, 7, 7, 7, 7, 2, 7, 7, 7, 7, 7]
     exp = 6
     obs = longest_subarray_equal(A)
     assert_equal(exp, obs)

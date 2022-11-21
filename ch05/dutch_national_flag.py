@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 
 
-from typing import List
-
-
 RED, WHITE, BLUE = range(3)
 
 
-def dutch_flag_partition(pivot_index: int, A: List[int]) -> None:
+def dutch_flag_partition(pivot_index: int, A: list[int]) -> None:
     pivot = A[pivot_index]
     # First pass: group elements smaller than pivot.
     for i in range(len(A)):

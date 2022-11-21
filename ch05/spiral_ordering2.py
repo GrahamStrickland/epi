@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
 
-from typing import List
-
-
-def matrix_in_spiral_order(square_matrix: List[List[int]]) -> List[int]:
+def matrix_in_spiral_order(square_matrix: list[list[int]]) -> list[int]:
     shift = ((0, 1), (1, 0), (0, -1), (-1, 0))
     direction = x = y = 0
     spiral_ordering = []

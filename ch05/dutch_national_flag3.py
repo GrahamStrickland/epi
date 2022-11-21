@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
 
-from typing import List
-
-
-def dutch_flag_partition(pivot_index: int, A: List[int]) -> None:
+def dutch_flag_partition(pivot_index: int, A: list[int]) -> None:
     pivot = A[pivot_index]
     # Keep the following invariants during partitioning:
     # bottom group: A[:smaller].

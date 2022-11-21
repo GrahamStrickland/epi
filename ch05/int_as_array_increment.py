@@ -1,10 +1,7 @@
 #! /usr/bin/env python3
 
 
-from typing import List
-
-
-def plus_one(A: List[int]) -> List[int]:
+def plus_one(A: list[int]) -> list[int]:
     A[-1] += 1
     for i in reversed(range(1, len(A))):
         if A[i] != 10:

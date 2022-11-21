@@ -1,10 +1,7 @@
 #! /usr/bin/env python3
 
 
-from typing import List
-
-
-def generate_spiral_order(d: int) -> List[List[int]]:
+def generate_spiral_order(d: int) -> list[list[int]]:
     shift = ((0, 1), (1, 0), (0, -1), (-1, 0))
     direction = x = y = 0
     spiral_arr = [[0 for _ in range(d)] for _ in range(d)]

@@ -1,10 +1,7 @@
 #! /usr/bin/env python3
 
 
-from typing import List
-
-
-def longest_subarray_equal(A: List[int]) -> int:
+def longest_subarray_equal(A: list[int]) -> int:
     i = 0
     longest, current, current_val = 1, 1, A[i]
     i += 1

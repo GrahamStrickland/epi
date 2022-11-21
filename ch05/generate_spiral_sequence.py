@@ -2,10 +2,9 @@
 
 
 from math import sqrt, floor
-from typing import List
 
 
-def generate_spiral_order_from_sequence(P: List[int]) -> List[List[int]]:
+def generate_spiral_order_from_sequence(P: list[int]) -> list[list[int]]:
     shift = ((0, 1), (1, 0), (0, -1), (-1, 0))
     direction = x = y = 0
     dimension = floor(sqrt(len(P)))

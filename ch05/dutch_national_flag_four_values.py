@@ -1,10 +1,7 @@
 #! /usr/bin/env python3
 
 
-from typing import List
-
-
-def dutch_flag_four_values(A: List[int]) -> None:
+def dutch_flag_four_values(A: list[int]) -> None:
     pivots = [0, 0, 0, len(A) - 1]  # Indices of pivots.
     vals = [A[pivots[0]]]           # Values of pivots.
     vals += [float('inf')] * 3

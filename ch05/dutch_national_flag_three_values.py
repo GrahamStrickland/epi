@@ -1,10 +1,7 @@
 #! /usr/bin/env python3
 
 
-from typing import List
-
-
-def dutch_flag_three_values(A: List[int]) -> None:
+def dutch_flag_three_values(A: list[int]) -> None:
     i = 1
     first, last = 0, len(A) - 1
     val1, val2, val3 = A[first], float('inf'), float('inf')
