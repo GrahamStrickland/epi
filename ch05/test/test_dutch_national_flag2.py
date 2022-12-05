@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 
-from nose.tools import assert_equal
-from ..dutch_national_flag3 import dutch_flag_partition
+from ..dutch_national_flag2 import dutch_flag_partition
 
 
 def test_dutch_flag_partition() -> None:
@@ -10,7 +9,7 @@ def test_dutch_flag_partition() -> None:
     pivot_index = 3
     pivot = A[pivot_index]
     dutch_flag_partition(pivot_index, A)
-    assert_equal(is_partitioned(pivot, A), True)
+    assert is_partitioned(pivot, A)
 
 
 def test_dutch_flag_partition2() -> None:
@@ -18,7 +17,7 @@ def test_dutch_flag_partition2() -> None:
     pivot_index = 2
     pivot = A[pivot_index]
     dutch_flag_partition(pivot_index, A)
-    assert_equal(is_partitioned(pivot, A), True)
+    assert is_partitioned(pivot, A)
 
 
 def test_dutch_flag_partition3() -> None:
@@ -26,7 +25,7 @@ def test_dutch_flag_partition3() -> None:
     pivot_index = 2
     pivot = A[pivot_index]
     dutch_flag_partition(pivot_index, A)
-    assert_equal(is_partitioned(pivot, A), True)
+    assert is_partitioned(pivot, A)
 
 
 def test_dutch_flag_partition4() -> None:
@@ -34,7 +33,7 @@ def test_dutch_flag_partition4() -> None:
     pivot_index = 2
     pivot = A[pivot_index]
     dutch_flag_partition(pivot_index, A)
-    assert_equal(is_partitioned(pivot, A), True)
+    assert is_partitioned(pivot, A)
 
 
 def test_dutch_flag_partition5() -> None:
@@ -42,7 +41,7 @@ def test_dutch_flag_partition5() -> None:
     pivot_index = 2
     pivot = A[pivot_index]
     dutch_flag_partition(pivot_index, A)
-    assert_equal(is_partitioned(pivot, A), True)
+    assert is_partitioned(pivot, A)
 
 
 def is_partitioned(pivot: int, A: list[int]) -> bool:

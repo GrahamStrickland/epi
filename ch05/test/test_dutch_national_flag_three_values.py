@@ -1,38 +1,37 @@
 #!/usr/bin/env python3
 
 
-from nose.tools import assert_equal
 from ..dutch_national_flag_three_values import dutch_flag_three_values
 
 
 def test_dutch_flag_three_values() -> None:
     A = [0, 1, 2, 0, 2, 1, 1]
     dutch_flag_three_values(A)
-    assert_equal(is_partitioned(A), True)
+    assert is_partitioned(A)
 
 
 def test_dutch_flag_three_values2() -> None:
     A = [0, 1, 2, 0, 2, 1, 1]
     dutch_flag_three_values(A)
-    assert_equal(is_partitioned(A), True)
+    assert is_partitioned(A)
 
 
 def test_dutch_flag_three_values3() -> None:
     A = [0, 0, 0, 0, 2, 2, 2, 2, 1, 1, 1, 1]
     dutch_flag_three_values(A)
-    assert_equal(is_partitioned(A), True)
+    assert is_partitioned(A)
 
 
 def test_dutch_flag_three_values4() -> None:
     A = [1, 0, 2, 1, 0, 2, 1, 0, 2]
     dutch_flag_three_values(A)
-    assert_equal(is_partitioned(A), True)
+    assert is_partitioned(A)
 
 
 def test_dutch_flag_three_values5() -> None:
     A = [1, 1, 1, 2, 0, 0, 0, 2]
     dutch_flag_three_values(A)
-    assert_equal(is_partitioned(A), True)
+    assert is_partitioned(A)
 
 
 def is_partitioned(A: list[int]) -> bool:

@@ -1,7 +1,6 @@
 #! /usr/bin/env python3
 
 
-from nose.tools import assert_equal
 from ..generate_spiral_sequence import generate_spiral_order_from_sequence
 
 
@@ -11,7 +10,7 @@ def test_generate_spiral_order() -> None:
            [8, 9, 4],
            [7, 6, 5]]
     obs = generate_spiral_order_from_sequence(P)
-    assert_equal(exp,  obs)
+    assert exp == obs
 
 
 def test_generate_spiral_order2() -> None:
@@ -20,4 +19,4 @@ def test_generate_spiral_order2() -> None:
            [128, 256, 8],
            [64, 32, 16]]
     obs = generate_spiral_order_from_sequence(P)
-    assert_equal(exp,  obs)
+    assert exp == obs
