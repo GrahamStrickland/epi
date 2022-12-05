@@ -2,10 +2,12 @@
 
 
 def enumerate_integers_spiral_order(n: int) -> list[tuple]:
-    spiral_order: list = []
+    shift = ((1, 0), (0, -1), (-1, 0), (0, 1))
+    direction = x = y = 0
+    spiral_ordering: list = []
+    int_pair = (0, 0)
 
-    for i in range(n):
-        current: tuple = ()
-        spiral_order += current
+    for _ in range(n):
+        spiral_ordering += int_pair
 
-    return spiral_order
+    return spiral_ordering
