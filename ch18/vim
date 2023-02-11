@@ -1,7 +1,0 @@
-WHITE, BLACK = range(2)
-
-Coordinate = collections.namedtuple('Coordinate', ('x', 'y'))
-
-
-def search_maze(maze: List[List[int]], s: Coordinate,
-            )
