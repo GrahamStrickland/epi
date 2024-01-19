@@ -1,8 +1,8 @@
 #!usr/bin/env python3
 
 
-from is_tree_balanced import is_balanced_binary_tree
-from binary_tree import BinaryTreeNode
+from src.binary_trees.is_tree_balanced import is_balanced_binary_tree
+from src.binary_trees.binary_tree import BinaryTreeNode
 
 
 def test_is_balanced_binary_tree0():
@@ -27,7 +27,8 @@ def test_is_balanced_binary_tree0():
     # Test function.
     obs = is_balanced_binary_tree(A)
     exp = False
-    return True if obs == exp else False
+
+    assert obs == exp
 
 
 def test_is_balanced_binary_tree1():
@@ -51,8 +52,6 @@ def test_is_balanced_binary_tree1():
     # Test function
     obs = is_balanced_binary_tree(A)
     exp = True
-    return True if obs == exp else False
 
+    assert obs == exp
 
-print(test_is_balanced_binary_tree0())
-print(test_is_balanced_binary_tree1())

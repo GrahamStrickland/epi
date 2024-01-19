@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 
-from ..int_as_array_increment import plus_one
+from src.arrays.int_as_array_increment import plus_one
 
 
 def test_plus_one() -> None:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from ..dutch_national_flag_bool_values import dutch_flag_bool
+from src.arrays.dutch_national_flag_bool_values import dutch_flag_bool
 
 
 def test_dutch_flag_bool() -> None:

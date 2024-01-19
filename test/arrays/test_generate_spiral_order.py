@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 
-from ..generate_spiral_order import generate_spiral_order
+from src.arrays.generate_spiral_order import generate_spiral_order
 
 
 def test_generate_spiral_order() -> None:

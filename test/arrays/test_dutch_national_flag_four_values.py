@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from ..dutch_national_flag_four_values import dutch_flag_four_values
+from src.arrays.dutch_national_flag_four_values import dutch_flag_four_values
 
 
 def test_dutch_flag_four_values() -> None:

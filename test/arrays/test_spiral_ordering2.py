@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from ..spiral_ordering2 import matrix_in_spiral_order
+from src.arrays.spiral_ordering2 import matrix_in_spiral_order
 
 
 def test_matrix_in_spiral_order() -> None:

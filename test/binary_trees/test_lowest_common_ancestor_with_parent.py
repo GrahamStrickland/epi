@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 
-from nose.tools import assert_equal
-from .binary_tree import BinaryTreeNode
-from .lowest_common_ancestor_with_parent import lca
+from src.binary_trees.binary_tree import BinaryTreeNode
+from src.binary_trees.lowest_common_ancestor_with_parent import lca
 
 
 # Create binary tree.
@@ -38,16 +37,17 @@ I.parent = B.parent = A
 def test_lca0() -> None:
     obs = lca(D, E)
     exp = C
-    assert_equal(obs, exp)
+    assert obs == exp
 
 
 def test_lca1() -> None:
     obs = lca(D, K)
     exp = A
-    assert_equal(obs, exp)
+    assert obs == exp
 
 
 def test_lca2() -> None:
     obs = lca(M, P)
     exp = I
-    assert_equal(obs, exp)
+    assert obs == exp
+

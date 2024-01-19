@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 
-from ..longest_subarray_equal import longest_subarray_equal
+from src.arrays.longest_subarray_equal import longest_subarray_equal
 
 
 def test_longest_subarray_equal() -> None:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from ..dutch_national_flag2 import dutch_flag_partition
+from src.arrays.dutch_national_flag2 import dutch_flag_partition
 
 
 def test_dutch_flag_partition() -> None:
@@ -62,3 +62,4 @@ def is_partitioned(pivot: int, A: list[int]) -> bool:
             if i <= pivot or i == pivot:
                 return False
     return True
+

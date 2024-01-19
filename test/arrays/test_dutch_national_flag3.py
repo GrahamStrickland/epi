@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from ..dutch_national_flag3 import dutch_flag_partition
+from src.arrays.dutch_national_flag3 import dutch_flag_partition
 
 
 def test_dutch_flag_partition() -> None:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from ..buy_and_sell_stock import buy_and_sell_stock_once
+from src.arrays.buy_and_sell_stock import buy_and_sell_stock_once
 
 
 def test_buy_and_sell_stock_once() -> None:
@@ -23,3 +23,4 @@ def test_buy_and_sell_stock_once3() -> None:
     obs = buy_and_sell_stock_once(prices)
     exp = 0
     assert obs == exp
+

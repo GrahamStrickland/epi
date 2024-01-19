@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from ..enumerate_integers_spiral_order import enumerate_integers_spiral_order
+from src.arrays.enumerate_integers_spiral_order import enumerate_integers_spiral_order
 
 
 def test_enumerate_integers_spiral_order() -> None:

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 
-from is_tree_a_bst2 import is_binary_tree_bst
-from binary_tree import BinaryTreeNode
+from src.binary_search_trees.is_tree_a_bst2 import is_binary_tree_bst
+from src.binary_trees.binary_tree import BinaryTreeNode
 
 
 def test_is_binary_tree_bst0() -> bool:
@@ -55,10 +55,8 @@ def test_is_binary_tree_bst1() -> bool:
     # Test for BST condition.
     obs = is_binary_tree_bst(A)
     exp = False
-    if obs == exp:
-        return True
-    else:
-        return False
+
+    assert obs == exp:
 
 
 def test_is_binary_tree_bst2() -> bool:
@@ -82,12 +80,6 @@ def test_is_binary_tree_bst2() -> bool:
     # Test for BST condition.
     obs = is_binary_tree_bst(A)
     exp = False
-    if obs == exp:
-        return True
-    else:
-        return False
 
+    assert obs == exp:
 
-print(test_is_binary_tree_bst0())
-print(test_is_binary_tree_bst1())
-print(test_is_binary_tree_bst2())

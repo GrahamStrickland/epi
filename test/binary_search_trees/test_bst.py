@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 
-from nose.tools import assert_equal
-from .bst import BstNode, search_bst
+from src.binary_search_trees.bst import BstNode, search_bst
 
 
 def test_search_in_bst0():
@@ -22,6 +21,9 @@ def test_search_in_bst0():
     C = BstNode(3, D, E)
     B = BstNode(7, C, F)
     A = BstNode(19, B, I)
+
     obs = search_bst(A, 23)
     exp = J
-    assert_equal(obs, exp)
+
+    assert obs == exp
+

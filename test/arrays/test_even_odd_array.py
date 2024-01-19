@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from ..even_odd_array import even_odd
+from src.arrays.even_odd_array import even_odd
 
 
 def test_even_odd_array0() -> None:

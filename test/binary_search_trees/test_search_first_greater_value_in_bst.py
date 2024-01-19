@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 
-from nose.tools import assert_equal
-from .bst import BstNode
-from .search_first_greater_value_in_bst import find_first_greater_than_k
+from src.binary_search_trees.bst import BstNode
+from src.binary_search_trees.search_first_greater_value_in_bst import find_first_greater_than_k
 
 
 P = BstNode(53)
@@ -27,4 +26,5 @@ A = BstNode(19, B, I)
 def test_find_first_greater_than_k0() -> None:
     obs = find_first_greater_than_k(A, 23)
     exp = L
-    assert_equal(obs, exp)
+    assert obs == exp
+
