@@ -1,0 +1,423 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^A = BstNode(19, B, I)$/;"	v
+A	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^A = BinaryTreeNode(None, 314, B, I)$/;"	v
+A	test/binary_trees/test_tree_traversal.py	/^A = BinaryTreeNode(314, B, I)$/;"	v
+B	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^B = BstNode(7, C, F)$/;"	v
+B	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^B = BinaryTreeNode(None, 6, C, F)$/;"	v
+B	test/binary_trees/test_tree_traversal.py	/^B = BinaryTreeNode(6, C, F)$/;"	v
+BinaryTreeNode	src/binary_search_trees/binary_tree.py	/^class BinaryTreeNode:$/;"	c
+BinaryTreeNode	src/binary_trees/binary_tree.py	/^class BinaryTreeNode:$/;"	c
+BinaryTreeNode	src/stacks_queues/binary_tree.py	/^class BinaryTreeNode:$/;"	c
+BstNode	src/binary_search_trees/bst.py	/^class BstNode:$/;"	c
+C	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^C = BstNode(3, D, E)$/;"	v
+C	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^C = BinaryTreeNode(None, 271, D, E)$/;"	v
+C	test/binary_trees/test_tree_traversal.py	/^C = BinaryTreeNode(271, D, E)$/;"	v
+ContactList	src/hash_tables/contact_list.py	/^class ContactList:$/;"	c
+Coordinate	src/graphs/search_maze.py	/^Coordinate = collections.namedtuple('Coordinate', ('x', 'y'))$/;"	v
+D	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^D = BstNode(2)$/;"	v
+D	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^D = BinaryTreeNode(None, 28)$/;"	v
+D	test/binary_trees/test_tree_traversal.py	/^D = BinaryTreeNode(28)$/;"	v
+E	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^E = BstNode(5)$/;"	v
+E	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^E = BinaryTreeNode(None, 0)$/;"	v
+E	test/binary_trees/test_tree_traversal.py	/^E = BinaryTreeNode(0)$/;"	v
+EVEN_TURN	src/parallel_computing/odd_even_threads.py	/^    EVEN_TURN = False$/;"	v	class:OddEvenMonitor
+ElementWithCachedMax	src/stacks_queues/stack_with_max.py	/^    ElementWithCachedMax = collections.namedtuple('ElementWithCachedMax',$/;"	v	class:Stack
+EvenThread	src/parallel_computing/odd_even_threads.py	/^class EvenThread(threading.Thread):$/;"	c
+F	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^F = BstNode(11, None, G)$/;"	v
+F	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^F = BinaryTreeNode(None, 561, None, G)$/;"	v
+F	test/binary_trees/test_tree_traversal.py	/^F = BinaryTreeNode(561, None, G)$/;"	v
+G	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^G = BstNode(17, H)$/;"	v
+G	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^G = BinaryTreeNode(None, 3, H)$/;"	v
+G	test/binary_trees/test_tree_traversal.py	/^G = BinaryTreeNode(3, H)$/;"	v
+H	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^H = BstNode(13)$/;"	v
+H	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^H = BinaryTreeNode(None, 17)$/;"	v
+H	test/binary_trees/test_tree_traversal.py	/^H = BinaryTreeNode(17)$/;"	v
+I	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^I = BstNode(43, J, O)$/;"	v
+I	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^I = BinaryTreeNode(None, 6, J, O)$/;"	v
+I	test/binary_trees/test_tree_traversal.py	/^I = BinaryTreeNode(6, J, O)$/;"	v
+J	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^J = BstNode(23, None, K)$/;"	v
+J	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^J = BinaryTreeNode(None, 2, None, K)$/;"	v
+J	test/binary_trees/test_tree_traversal.py	/^J = BinaryTreeNode(2, None, K)$/;"	v
+K	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^K = BstNode(37, L, N)$/;"	v
+K	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^K = BinaryTreeNode(None, 1, L, N)$/;"	v
+K	test/binary_trees/test_tree_traversal.py	/^K = BinaryTreeNode(1, L, N)$/;"	v
+L	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^L = BstNode(29, None, M)$/;"	v
+L	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^L = BinaryTreeNode(None, 401, None, M)$/;"	v
+L	test/binary_trees/test_tree_traversal.py	/^L = BinaryTreeNode(401, None, M)$/;"	v
+LRUCache	src/hash_tables/lru_cache.py	/^class LRUCache:$/;"	c
+ListNode	src/linked_lists/linked_list.py	/^class ListNode:$/;"	c
+ListNode	src/stacks_queues/linked_list.py	/^class ListNode:$/;"	c
+M	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^M = BstNode(31)$/;"	v
+M	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^M = BinaryTreeNode(None, 641)$/;"	v
+M	test/binary_trees/test_tree_traversal.py	/^M = BinaryTreeNode(641)$/;"	v
+MatchResult	src/graphs/match_result.py	/^MatchResult = collections.namedtuple('MatchResult',$/;"	v
+N	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^N = BstNode(41)$/;"	v
+N	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^N = BinaryTreeNode(None, 257)$/;"	v
+N	test/binary_trees/test_tree_traversal.py	/^N = BinaryTreeNode(257)$/;"	v
+NUM_PEGS	src/recursion/hanoi.py	/^NUM_PEGS = 3$/;"	v
+O	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^O = BstNode(47, None, P)$/;"	v
+O	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^O = BinaryTreeNode(None, 271, None, P)$/;"	v
+O	test/binary_trees/test_tree_traversal.py	/^O = BinaryTreeNode(271, None, P)$/;"	v
+ODD_TURN	src/parallel_computing/odd_even_threads.py	/^    ODD_TURN = True$/;"	v	class:OddEvenMonitor
+OddEvenMonitor	src/parallel_computing/odd_even_threads.py	/^class OddEvenMonitor(threading.Condition):$/;"	c
+OddThread	src/parallel_computing/odd_even_threads.py	/^class OddThread(threading.Thread):$/;"	c
+P	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^P = BstNode(53)$/;"	v
+P	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^P = BinaryTreeNode(None, 28)$/;"	v
+P	test/binary_trees/test_tree_traversal.py	/^P = BinaryTreeNode(28)$/;"	v
+PRECOMPUTED_PARITY	src/primitive_types/parity3.py	/^PRECOMPUTED_PARITY = {x: parity(x) for x in range(2**16)}$/;"	v
+Queue	src/stacks_queues/queue.py	/^class Queue:$/;"	c
+Semaphore	src/parallel_computing/semaphore.py	/^class Semaphore():$/;"	c
+Stack	src/stacks_queues/stack_with_max.py	/^class Stack():$/;"	c
+Star	src/heaps/k_closest_stars.py	/^class Star:$/;"	c
+Student	src/searching/search_gpa.py	/^Student = collections.namedtuple('Student', ('name', 'grade_point_average'))$/;"	v
+Student	src/sorting/student.py	/^class Student:$/;"	c
+__all__	src/binary_search_trees/binary_tree.py	/^__all__ = ['BinaryTreeNode']$/;"	v
+__all__	src/binary_search_trees/bst.py	/^__all__ = ['BstNode', 'search_bst']$/;"	v
+__all__	src/binary_trees/binary_tree.py	/^__all__ = ['BinaryTreeNode']$/;"	v
+__all__	src/hash_tables/contact_list.py	/^__all__ = ['ContactList', 'merge_contact_lists']$/;"	v
+__all__	src/linked_lists/linked_list.py	/^__all__ = ['ListNode', 'insert_after', 'delete_after', 'search_list']$/;"	v
+__all__	src/stacks_queues/binary_tree.py	/^__all__ = ['BinaryTreeNode']$/;"	v
+__all__	src/stacks_queues/linked_list.py	/^__all__ = ['ListNode', 'insert_after', 'delete_after', 'search_list']$/;"	v
+__all__	src/stacks_queues/queue.py	/^__all__ = ['Queue']$/;"	v
+__all__	src/stacks_queues/stack_with_max.py	/^__all__ = ['Stack']$/;"	v
+__eq__	src/hash_tables/contact_list.py	/^    def __eq__(self, other):$/;"	m	class:ContactList	file:
+__hash__	src/hash_tables/contact_list.py	/^    def __hash__(self):$/;"	m	class:ContactList	file:
+__init__	src/binary_search_trees/binary_tree.py	/^    def __init__(self, data=None, left=None, right=None):$/;"	m	class:BinaryTreeNode
+__init__	src/binary_search_trees/bst.py	/^    def __init__(self, data=None, left=None, right=None):$/;"	m	class:BstNode
+__init__	src/binary_trees/binary_tree.py	/^    def __init__(self, parent=None, data=None, left=None, right=None):$/;"	m	class:BinaryTreeNode
+__init__	src/hash_tables/contact_list.py	/^    def __init__(self, names):$/;"	m	class:ContactList
+__init__	src/hash_tables/lru_cache.py	/^    def __init__(self, capacity: int) -> None:$/;"	m	class:LRUCache
+__init__	src/heaps/k_closest_stars.py	/^    def __init__(self, x: float, y: float, z: float) -> None:$/;"	m	class:Star
+__init__	src/linked_lists/linked_list.py	/^    def __init__(self, data=0, next=None):$/;"	m	class:ListNode
+__init__	src/parallel_computing/odd_even_threads.py	/^    def __init__(self):$/;"	m	class:OddEvenMonitor
+__init__	src/parallel_computing/odd_even_threads.py	/^    def __init__(self, monitor):$/;"	m	class:EvenThread
+__init__	src/parallel_computing/odd_even_threads.py	/^    def __init__(self, monitor):$/;"	m	class:OddThread
+__init__	src/parallel_computing/semaphore.py	/^    def __init__(self, max_available):$/;"	m	class:Semaphore
+__init__	src/sorting/student.py	/^    def __init__(self, name: str, grade_point_average: float) -> None:$/;"	m	class:Student
+__init__	src/stacks_queues/binary_tree.py	/^    def __init__(self, data=None, left=None, right=None):$/;"	m	class:BinaryTreeNode
+__init__	src/stacks_queues/linked_list.py	/^    def __init__(self, data=0, next=None):$/;"	m	class:ListNode
+__init__	src/stacks_queues/queue.py	/^    def __init__(self) -> None:$/;"	m	class:Queue
+__init__	src/stacks_queues/stack_with_max.py	/^    def __init__(self) -> None:$/;"	m	class:Stack
+__lt__	src/heaps/k_closest_stars.py	/^    def __lt__(self, rhs: 'Star') -> bool:$/;"	m	class:Star	file:
+__lt__	src/sorting/student.py	/^    def __lt__(self, other: 'Student') -> bool:$/;"	m	class:Student	file:
+a	src/binary_search_trees/bintrees.py	/^a = t.pop_min()$/;"	v
+acquire	src/parallel_computing/semaphore.py	/^    def acquire(self):$/;"	m	class:Semaphore
+are_keys_in_range	src/binary_search_trees/is_tree_a_bst.py	/^    def are_keys_in_range(tree,$/;"	f	function:is_binary_tree_bst
+binary_tree_depth_order	src/stacks_queues/tree_level_order.py	/^def binary_tree_depth_order(tree: BinaryTreeNode) -> List[List[int]]:$/;"	f
+bsearch	src/searching/bsearch.py	/^def bsearch(t: int, A: List[int]) -> int:$/;"	f
+build_graph	src/graphs/match_result.py	/^    def build_graph():$/;"	f	function:can_team_a_beat_team_b
+buy_and_sell_stock_once	src/arrays/buy_and_sell_stock.py	/^def buy_and_sell_stock_once(prices: list[float]) -> float:$/;"	f
+c	src/hash_tables/collections_counter.py	/^c = collections.Counter(a=3, b=1)$/;"	v
+can_team_a_beat_team_b	src/graphs/match_result.py	/^def can_team_a_beat_team_b(matches, team_a, team_b):$/;"	f
+change_making	src/greedy/making_change.py	/^def change_making(cents: int) -> int:$/;"	f
+check_balanced	src/binary_trees/is_tree_balanced.py	/^    def check_balanced(tree):$/;"	f	function:is_balanced_binary_tree
+check_even_odd	test/arrays/test_even_odd_array.py	/^def check_even_odd(A: list[int]) -> bool:$/;"	f
+comp	src/searching/kth_largest_in_array.py	/^def comp(a: int, b: int) -> bool:$/;"	f
+comp_gpa	src/searching/search_gpa.py	/^def comp_gpa(student: Student) -> Tuple[float, str]:$/;"	f
+compute_tower_hanoi_steps	src/recursion/hanoi.py	/^    def compute_tower_hanoi_steps(num_rings_to_move, from_peg, to_peg,$/;"	f	function:compute_tower_of_hanoi
+compute_tower_of_hanoi	src/recursion/hanoi.py	/^def compute_tower_of_hanoi(num_rings: int) -> List[List[int]]:$/;"	f
+construct_from_base	src/strings/convert_base.py	/^    def construct_from_base(num_as_int, base):$/;"	f	function:convert_base
+convert_base	src/strings/convert_base.py	/^def convert_base(num_as_string: str, b1: int, b2: int) -> str:$/;"	f
+count_bits	src/primitive_types/count_bits.py	/^def count_bits(x: int) -> int:$/;"	f
+cycle_len	src/linked_lists/is_list_cyclic.py	/^    def cycle_len(end):$/;"	f	function:has_cycle
+d	src/hash_tables/collections_counter.py	/^d = collections.Counter(a=1, b=2)$/;"	v
+delete_after	src/linked_lists/linked_list.py	/^def delete_after(node: ListNode) -> None:$/;"	f
+delete_after	src/stacks_queues/linked_list.py	/^def delete_after(node: ListNode) -> None:$/;"	f
+dequeue	src/stacks_queues/queue.py	/^    def dequeue(self) -> int:$/;"	m	class:Queue
+distance	src/heaps/k_closest_stars.py	/^    def distance(self) -> float:$/;"	m	class:Star
+dutch_flag_bool	src/arrays/dutch_national_flag_bool_values.py	/^def dutch_flag_bool(A: list[int]) -> None:$/;"	f
+dutch_flag_four_values	src/arrays/dutch_national_flag_four_values.py	/^def dutch_flag_four_values(A: list[int]) -> None:$/;"	f
+dutch_flag_partition	src/arrays/dutch_national_flag.py	/^def dutch_flag_partition(pivot_index: int, A: list[int]) -> None:$/;"	f
+dutch_flag_partition	src/arrays/dutch_national_flag2.py	/^def dutch_flag_partition(pivot_index: int, A: list[int]) -> None:$/;"	f
+dutch_flag_partition	src/arrays/dutch_national_flag3.py	/^def dutch_flag_partition(pivot_index: int, A: list[int]) -> None:$/;"	f
+dutch_flag_three_values	src/arrays/dutch_national_flag_three_values.py	/^def dutch_flag_three_values(A: list[int]) -> None:$/;"	f
+empty	src/stacks_queues/stack_with_max.py	/^    def empty(self) -> bool:$/;"	m	class:Stack
+enqueue	src/stacks_queues/queue.py	/^    def enqueue(self, x: int) -> None:$/;"	m	class:Queue
+enumerate_integers_spiral_order	src/arrays/enumerate_integers_spiral_order.py	/^def enumerate_integers_spiral_order(n: int) -> list[tuple]:$/;"	f
+erase	src/hash_tables/lru_cache.py	/^    def erase(self, isbn: int) -> bool:$/;"	m	class:LRUCache
+even_odd	src/arrays/even_odd_array.py	/^def even_odd(A: list[int]) -> None:$/;"	f
+even_thread	test/parallel_computing/test_odd_even_threads.py	/^even_thread = EvenThread(monitor)$/;"	v
+fibonacci	src/dynamic_programming/fibonacci.py	/^def fibonacci(n: int) -> int:$/;"	f
+fibonacci	src/dynamic_programming/fibonacci2.py	/^def fibonacci(n: int) -> int:$/;"	f
+find_anagrams	src/hash_tables/anagrams.py	/^def find_anagrams(dictionary: List[str]) -> List[List[str]]:$/;"	f
+find_first_greater_than_k	src/binary_search_trees/search_first_greater_value_in_bst.py	/^def find_first_greater_than_k(tree: BstNode, k: int) -> Optional[BstNode]:$/;"	f
+find_k_closest_stars	src/heaps/k_closest_stars.py	/^def find_k_closest_stars(stars: Iterator[Star], k: int) -> List[Star]:$/;"	f
+find_k_largest_in_bst	src/binary_search_trees/k_largest_values_in_bst.py	/^def find_k_largest_in_bst(tree: BstNode, k: int) -> List[int]:$/;"	f
+find_kth_largest	src/searching/kth_largest_in_array.py	/^def find_kth_largest(k: int, A: List[int]) -> int:$/;"	f
+find_maximum_subarray	src/dynamic_programming/max_sum_subarray.py	/^def find_maximum_subarray(A: List[int]) -> int:$/;"	f
+find_nearest_repetition	src/hash_tables/nearest_repeated_entries.py	/^def find_nearest_repetition(paragraph: List[str]) -> int:$/;"	f
+gcd	src/recursion/gcd.py	/^def gcd(x: int, y: int) -> int:$/;"	f
+generate_spiral_order	src/arrays/generate_spiral_order.py	/^def generate_spiral_order(d: int) -> list[list[int]]:$/;"	f
+generate_spiral_order_from_sequence	src/arrays/generate_spiral_sequence.py	/^def generate_spiral_order_from_sequence(P: list[int]) -> list[list[int]]:$/;"	f
+get_depth	src/binary_trees/lowest_common_ancestor_with_parent.py	/^    def get_depth(node):$/;"	f	function:lca
+has_cycle	src/linked_lists/is_list_cyclic.py	/^def has_cycle(head: ListNode) -> Optional[ListNode]:$/;"	f
+has_three_sum	src/greedy/three_sum.py	/^def has_three_sum(A: List[int], t: int) -> bool:$/;"	f
+has_two_sum	src/greedy/two_sum.py	/^def has_two_sum(A: List[int], t: int) -> bool:$/;"	f
+insert	src/hash_tables/lru_cache.py	/^    def insert(self, isbn: int, price: int) -> None:$/;"	m	class:LRUCache
+insert_after	src/linked_lists/linked_list.py	/^def insert_after(node: ListNode, new_node: ListNode) -> None:$/;"	f
+insert_after	src/stacks_queues/linked_list.py	/^def insert_after(node: ListNode, new_node: ListNode) -> None:$/;"	f
+int_to_string	src/strings/string_integer_interconversion.py	/^def int_to_string(x: int) -> str:$/;"	f
+intersect_two_sorted_arrays	src/sorting/intersect_two_sorted_arrays.py	/^def intersect_two_sorted_arrays(A: List[int], B: List[int]) -> List[int]:$/;"	f
+intersect_two_sorted_arrays	src/sorting/intersect_two_sorted_arrays2.py	/^def intersect_two_sorted_arrays(A: List[int], B: List[int]) -> List[int]:$/;"	f
+intersect_two_sorted_arrays	src/sorting/intersect_two_sorted_arrays3.py	/^def intersect_two_sorted_arrays(A: List[int], B: List[int]) -> List[int]:$/;"	f
+is_balanced_binary_tree	src/binary_trees/is_tree_balanced.py	/^def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:$/;"	f
+is_binary_tree_bst	src/binary_search_trees/is_tree_a_bst.py	/^def is_binary_tree_bst(tree: BinaryTreeNode) -> bool:$/;"	f
+is_binary_tree_bst	src/binary_search_trees/is_tree_a_bst2.py	/^def is_binary_tree_bst(tree: BinaryTreeNode) -> bool:$/;"	f
+is_letter_constructible_from_magazine	src/hash_tables/is_anonymous_letter_constructible.py	/^def is_letter_constructible_from_magazine(letter_text: str,$/;"	f
+is_letter_constructible_from_magazine_pythonic	src/hash_tables/is_anonymous_letter_constructible.py	/^def is_letter_constructible_from_magazine_pythonic(letter_text: str,$/;"	f
+is_palindromic	src/strings/is_string_palindromic.py	/^def is_palindromic(s: str) -> bool:$/;"	f
+is_partitioned	test/arrays/test_dutch_national_flag.py	/^def is_partitioned(pivot: int, A: list[int]) -> bool:$/;"	f
+is_partitioned	test/arrays/test_dutch_national_flag2.py	/^def is_partitioned(pivot: int, A: list[int]) -> bool:$/;"	f
+is_partitioned	test/arrays/test_dutch_national_flag3.py	/^def is_partitioned(pivot: int, A: list[int]) -> bool:$/;"	f
+is_partitioned	test/arrays/test_dutch_national_flag_bool_values.py	/^def is_partitioned(A: list[int]) -> bool:$/;"	f
+is_partitioned	test/arrays/test_dutch_national_flag_four_values.py	/^def is_partitioned(A: list[int]) -> bool:$/;"	f
+is_partitioned	test/arrays/test_dutch_national_flag_three_values.py	/^def is_partitioned(A: list[int]) -> bool:$/;"	f
+is_present	src/sorting/intersect_two_sorted_arrays2.py	/^    def is_present(k):$/;"	f	function:intersect_two_sorted_arrays
+is_reachable_dfs	src/graphs/match_result.py	/^    def is_reachable_dfs(graph, curr, dest, visited=set()):$/;"	f	function:can_team_a_beat_team_b
+lca	src/binary_trees/lowest_common_ancestor_with_parent.py	/^def lca(node0: BinaryTreeNode,$/;"	f
+linked_list_from_arr	test/stacks_queues/test_print_linked_list_in_reverse.py	/^def linked_list_from_arr(arr: List[int]) -> ListNode:$/;"	f
+longest_subarray_equal	src/arrays/longest_subarray_equal.py	/^def longest_subarray_equal(A: list[int]) -> int:$/;"	f
+lookup	src/hash_tables/lru_cache.py	/^    def lookup(self, isbn: int) -> int:$/;"	m	class:LRUCache
+main	src/hash_tables/test_lru_cache.py	/^def main() -> None:$/;"	f
+matrix_in_spiral_order	src/arrays/spiral_ordering.py	/^def matrix_in_spiral_order(square_matrix: list[list[int]]) -> list[int]:$/;"	f
+matrix_in_spiral_order	src/arrays/spiral_ordering2.py	/^def matrix_in_spiral_order(square_matrix: list[list[int]]) -> list[int]:$/;"	f
+matrix_layer_in_clockwise	src/arrays/spiral_ordering.py	/^    def matrix_layer_in_clockwise(offset):$/;"	f	function:matrix_in_spiral_order
+max	src/stacks_queues/queue.py	/^    def max(self) -> int:$/;"	m	class:Queue
+max	src/stacks_queues/stack_with_max.py	/^    def max(self) -> int:$/;"	m	class:Stack
+merge_and_compare	test/linked_lists/test_sorted_lists_merge.py	/^def merge_and_compare(L1_arr: List[int], L2_arr: List[int]) -> bool:$/;"	f
+merge_contact_lists	src/hash_tables/contact_list.py	/^def merge_contact_lists(contacts: List[ContactList]) -> ContactList:$/;"	f
+merge_sorted_arrays	src/heaps/sorted_arrays_merge.py	/^def merge_sorted_arrays(sorted_arrays: List[List[int]]) -> List[int]:$/;"	f
+merge_sorted_arrays_pythonic	src/heaps/sorted_arrays_merge.py	/^def merge_sorted_arrays_pythonic(sorted_arrays):$/;"	f
+merge_two_sorted_arrays	src/sorting/two_sorted_arrays_merge.py	/^def merge_two_sorted_arrays(A: List[int], m: int, B: List[int],$/;"	f
+merge_two_sorted_lists	src/linked_lists/sorted_lists_merge.py	/^def merge_two_sorted_lists(L1: Optional[ListNode],$/;"	f
+mod_power_two	src/primitive_types/mod_power_two.py	/^def mod_power_two(x: int, a: int) -> int:$/;"	f
+monitor	test/parallel_computing/test_odd_even_threads.py	/^monitor = OddEvenMonitor()$/;"	v
+num_combinations_for_final_score	src/dynamic_programming/number_of_score_combinations.py	/^def num_combinations_for_final_score(final_score: int,$/;"	f
+odd_thread	test/parallel_computing/test_odd_even_threads.py	/^odd_thread = OddThread(monitor)$/;"	v
+parity	src/primitive_types/parity.py	/^def parity(x: int) -> int:$/;"	f
+parity	src/primitive_types/parity2.py	/^def parity(x: int) -> int:$/;"	f
+parity	src/primitive_types/parity4.py	/^def parity(x: int) -> int:$/;"	f
+parity3	src/primitive_types/parity3.py	/^def parity3(x: int) -> int: $/;"	f
+partition_around_pivot	src/searching/kth_largest_in_array.py	/^    def partition_around_pivot(left, right, pivot_idx):$/;"	f	function:find_kth_largest
+plus_one	src/arrays/int_as_array_increment.py	/^def plus_one(A: list[int]) -> list[int]:$/;"	f
+pop	src/stacks_queues/stack_with_max.py	/^    def pop(self) -> int:$/;"	m	class:Stack
+power	src/primitive_types/power_x_y.py	/^def power(x: float, y: int) -> float:$/;"	f
+power_2	src/primitive_types/power_2.py	/^def power_2(x: int) -> bool:$/;"	f
+print_linked_list_in_reverse	src/stacks_queues/print_linked_list_in_reverse.py	/^def print_linked_list_in_reverse(head: ListNode) -> None:$/;"	f
+push	src/stacks_queues/stack_with_max.py	/^    def push(self, x: int) -> None:$/;"	m	class:Stack
+random_sampling	src/arrays/offline_sampling.py	/^def random_sampling(k: int, A: list[int]) -> None:$/;"	f
+release	src/parallel_computing/semaphore.py	/^    def release(self):$/;"	m	class:Semaphore
+replace_and_remove	src/strings/replace_and_remove.py	/^def replace_and_remove(size: int, s: List[str]) -> int:$/;"	f
+reverse_digits	src/primitive_types/reverse_digits.py	/^def reverse_digits(x: int) -> int:$/;"	f
+reverse_sublist	src/linked_lists/reverse_sublist.py	/^def reverse_sublist(L: ListNode, start: int,$/;"	f
+right_propagate_rightmost_bit	src/primitive_types/right_propagate_bit.py	/^def right_propagate_rightmost_bit(x: int) -> int:$/;"	f
+run	src/parallel_computing/odd_even_threads.py	/^    def run(self):$/;"	m	class:EvenThread
+run	src/parallel_computing/odd_even_threads.py	/^    def run(self):$/;"	m	class:OddThread
+search_bst	src/binary_search_trees/bst.py	/^def search_bst(tree: BstNode, key: int) -> Optional[BstNode]:$/;"	f
+search_first_of_k	src/searching/search_first_key.py	/^def search_first_of_k(A: List[int], k: int) -> int:$/;"	f
+search_list	src/linked_lists/linked_list.py	/^def search_list(L: ListNode, key: int) -> ListNode:$/;"	f
+search_list	src/stacks_queues/linked_list.py	/^def search_list(L: ListNode, key: int) -> ListNode:$/;"	f
+search_maze	src/graphs/search_maze.py	/^def search_maze(maze: List[List[int]], s: Coordinate,$/;"	f
+search_maze_helper	src/graphs/search_maze.py	/^    def search_maze_helper(cur):$/;"	f	function:search_maze
+search_student	src/searching/search_gpa.py	/^def search_student(students: List[Student], target: Student,$/;"	f
+square_root	src/searching/int_square_root.py	/^def square_root(k: int) -> int:$/;"	f
+ss_decode_col_id	src/strings/spreadsheet_encoding.py	/^def ss_decode_col_id(col: str) -> int:$/;"	f
+string_hash	src/hash_tables/string_hash.py	/^def string_hash(s: str, modulus: int) -> int:$/;"	f
+string_to_int	src/strings/string_integer_interconversion.py	/^def string_to_int(s: str) -> int:$/;"	f
+students	src/sorting/student.py	/^students = [$/;"	v
+students_sort_by_name	src/sorting/student.py	/^students_sort_by_name = sorted(students)$/;"	v
+t	src/binary_search_trees/bintrees.py	/^t = bintrees.RBTree([(5, 'Alfa'), (2, 'Bravo'), (7, 'Charlie'), (3, 'Delta'),$/;"	v
+test_binary_tree_depth_order	test/stacks_queues/test_tree_level_order.py	/^def test_binary_tree_depth_order() -> bool:$/;"	f
+test_bsearch0	test/searching/test_bsearch.py	/^def test_bsearch0():$/;"	f
+test_bsearch1	test/searching/test_bsearch.py	/^def test_bsearch1():$/;"	f
+test_bsearch2	test/searching/test_bsearch.py	/^def test_bsearch2():$/;"	f
+test_bsearch3	test/searching/test_bsearch.py	/^def test_bsearch3():$/;"	f
+test_buy_and_sell_stock_once	test/arrays/test_buy_and_sell_stock.py	/^def test_buy_and_sell_stock_once() -> None:$/;"	f
+test_buy_and_sell_stock_once2	test/arrays/test_buy_and_sell_stock.py	/^def test_buy_and_sell_stock_once2() -> None:$/;"	f
+test_buy_and_sell_stock_once3	test/arrays/test_buy_and_sell_stock.py	/^def test_buy_and_sell_stock_once3() -> None:$/;"	f
+test_can_team_a_beat_team_b0	test/graphs/test_match_result.py	/^def test_can_team_a_beat_team_b0():$/;"	f
+test_can_team_a_beat_team_b1	test/graphs/test_match_result.py	/^def test_can_team_a_beat_team_b1():$/;"	f
+test_change_making	test/greedy/test_making_change.py	/^def test_change_making() -> None:$/;"	f
+test_change_making1	test/greedy/test_making_change.py	/^def test_change_making1() -> None:$/;"	f
+test_change_making2	test/greedy/test_making_change.py	/^def test_change_making2() -> None:$/;"	f
+test_change_making3	test/greedy/test_making_change.py	/^def test_change_making3() -> None:$/;"	f
+test_compute_tower_of_hanoi	test/recursion/test_hanoi.py	/^def test_compute_tower_of_hanoi() -> None:$/;"	f
+test_compute_tower_of_hanoi1	test/recursion/test_hanoi.py	/^def test_compute_tower_of_hanoi1() -> None:$/;"	f
+test_contact_list0	src/hash_tables/test_contact_list.py	/^def test_contact_list0() -> None:$/;"	f
+test_convert_base0	test/strings/test_convert_base.py	/^def test_convert_base0() -> None:$/;"	f
+test_convert_base1	test/strings/test_convert_base.py	/^def test_convert_base1() -> None:$/;"	f
+test_convert_base2	test/strings/test_convert_base.py	/^def test_convert_base2() -> None:$/;"	f
+test_dutch_flag_bool	test/arrays/test_dutch_national_flag_bool_values.py	/^def test_dutch_flag_bool() -> None:$/;"	f
+test_dutch_flag_bool2	test/arrays/test_dutch_national_flag_bool_values.py	/^def test_dutch_flag_bool2() -> None:$/;"	f
+test_dutch_flag_bool3	test/arrays/test_dutch_national_flag_bool_values.py	/^def test_dutch_flag_bool3() -> None:$/;"	f
+test_dutch_flag_bool4	test/arrays/test_dutch_national_flag_bool_values.py	/^def test_dutch_flag_bool4() -> None:$/;"	f
+test_dutch_flag_bool5	test/arrays/test_dutch_national_flag_bool_values.py	/^def test_dutch_flag_bool5() -> None:$/;"	f
+test_dutch_flag_four_values	test/arrays/test_dutch_national_flag_four_values.py	/^def test_dutch_flag_four_values() -> None:$/;"	f
+test_dutch_flag_four_values2	test/arrays/test_dutch_national_flag_four_values.py	/^def test_dutch_flag_four_values2() -> None:$/;"	f
+test_dutch_flag_four_values3	test/arrays/test_dutch_national_flag_four_values.py	/^def test_dutch_flag_four_values3() -> None:$/;"	f
+test_dutch_flag_four_values4	test/arrays/test_dutch_national_flag_four_values.py	/^def test_dutch_flag_four_values4() -> None:$/;"	f
+test_dutch_flag_four_values5	test/arrays/test_dutch_national_flag_four_values.py	/^def test_dutch_flag_four_values5() -> None:$/;"	f
+test_dutch_flag_partition	test/arrays/test_dutch_national_flag.py	/^def test_dutch_flag_partition() -> None:$/;"	f
+test_dutch_flag_partition	test/arrays/test_dutch_national_flag2.py	/^def test_dutch_flag_partition() -> None:$/;"	f
+test_dutch_flag_partition	test/arrays/test_dutch_national_flag3.py	/^def test_dutch_flag_partition() -> None:$/;"	f
+test_dutch_flag_partition2	test/arrays/test_dutch_national_flag.py	/^def test_dutch_flag_partition2() -> None:$/;"	f
+test_dutch_flag_partition2	test/arrays/test_dutch_national_flag2.py	/^def test_dutch_flag_partition2() -> None:$/;"	f
+test_dutch_flag_partition2	test/arrays/test_dutch_national_flag3.py	/^def test_dutch_flag_partition2() -> None:$/;"	f
+test_dutch_flag_partition3	test/arrays/test_dutch_national_flag.py	/^def test_dutch_flag_partition3() -> None:$/;"	f
+test_dutch_flag_partition3	test/arrays/test_dutch_national_flag2.py	/^def test_dutch_flag_partition3() -> None:$/;"	f
+test_dutch_flag_partition3	test/arrays/test_dutch_national_flag3.py	/^def test_dutch_flag_partition3() -> None:$/;"	f
+test_dutch_flag_partition4	test/arrays/test_dutch_national_flag.py	/^def test_dutch_flag_partition4() -> None:$/;"	f
+test_dutch_flag_partition4	test/arrays/test_dutch_national_flag2.py	/^def test_dutch_flag_partition4() -> None:$/;"	f
+test_dutch_flag_partition4	test/arrays/test_dutch_national_flag3.py	/^def test_dutch_flag_partition4() -> None:$/;"	f
+test_dutch_flag_partition5	test/arrays/test_dutch_national_flag.py	/^def test_dutch_flag_partition5() -> None:$/;"	f
+test_dutch_flag_partition5	test/arrays/test_dutch_national_flag2.py	/^def test_dutch_flag_partition5() -> None:$/;"	f
+test_dutch_flag_partition5	test/arrays/test_dutch_national_flag3.py	/^def test_dutch_flag_partition5() -> None:$/;"	f
+test_dutch_flag_three_values	test/arrays/test_dutch_national_flag_three_values.py	/^def test_dutch_flag_three_values() -> None:$/;"	f
+test_dutch_flag_three_values2	test/arrays/test_dutch_national_flag_three_values.py	/^def test_dutch_flag_three_values2() -> None:$/;"	f
+test_dutch_flag_three_values3	test/arrays/test_dutch_national_flag_three_values.py	/^def test_dutch_flag_three_values3() -> None:$/;"	f
+test_dutch_flag_three_values4	test/arrays/test_dutch_national_flag_three_values.py	/^def test_dutch_flag_three_values4() -> None:$/;"	f
+test_dutch_flag_three_values5	test/arrays/test_dutch_national_flag_three_values.py	/^def test_dutch_flag_three_values5() -> None:$/;"	f
+test_enumerate_integers_spiral_order	test/arrays/test_enumerate_integers_spiral_order.py	/^def test_enumerate_integers_spiral_order() -> None:$/;"	f
+test_even_odd_array0	test/arrays/test_even_odd_array.py	/^def test_even_odd_array0() -> None:$/;"	f
+test_even_odd_array1	test/arrays/test_even_odd_array.py	/^def test_even_odd_array1() -> None:$/;"	f
+test_even_odd_array2	test/arrays/test_even_odd_array.py	/^def test_even_odd_array2() -> None:$/;"	f
+test_fibonacci	test/dynamic_programming/test_fibonacci.py	/^def test_fibonacci() -> None:$/;"	f
+test_fibonacci	test/dynamic_programming/test_fibonacci2.py	/^def test_fibonacci() -> None:$/;"	f
+test_fibonacci1	test/dynamic_programming/test_fibonacci.py	/^def test_fibonacci1() -> None:$/;"	f
+test_fibonacci1	test/dynamic_programming/test_fibonacci2.py	/^def test_fibonacci1() -> None:$/;"	f
+test_fibonacci2	test/dynamic_programming/test_fibonacci.py	/^def test_fibonacci2() -> None:$/;"	f
+test_fibonacci2	test/dynamic_programming/test_fibonacci2.py	/^def test_fibonacci2() -> None:$/;"	f
+test_find_anagrams	test/hash_tables/test_anagrams.py	/^def test_find_anagrams():$/;"	f
+test_find_first_greater_than_k0	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^def test_find_first_greater_than_k0() -> None:$/;"	f
+test_find_k_closest_stars	test/heaps/test_k_closest_stars.py	/^def test_find_k_closest_stars() -> None:$/;"	f
+test_find_kth_largest0	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest0() -> None:$/;"	f
+test_find_kth_largest1	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest1() -> None:$/;"	f
+test_find_kth_largest2	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest2() -> None:$/;"	f
+test_find_kth_largest3	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest3() -> None:$/;"	f
+test_find_kth_largest4	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest4() -> None:$/;"	f
+test_find_kth_largest5	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest5() -> None:$/;"	f
+test_find_kth_largest6	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest6() -> None:$/;"	f
+test_find_kth_largest7	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest7() -> None:$/;"	f
+test_find_kth_largest8	test/searching/test_kth_largest_in_array.py	/^def test_find_kth_largest8() -> None:$/;"	f
+test_find_maximum_subarray	test/dynamic_programming/test_max_sum_subarray.py	/^def test_find_maximum_subarray() -> None:$/;"	f
+test_find_maximum_subarray1	test/dynamic_programming/test_max_sum_subarray.py	/^def test_find_maximum_subarray1() -> None:$/;"	f
+test_find_nearest_repetition0	test/hash_tables/test_nearest_repeated_entries.py	/^def test_find_nearest_repetition0() -> None:$/;"	f
+test_gcd	test/recursion/test_gcd.py	/^def test_gcd() -> None:$/;"	f
+test_gcd1	test/recursion/test_gcd.py	/^def test_gcd1() -> None:$/;"	f
+test_gcd2	test/recursion/test_gcd.py	/^def test_gcd2() -> None:$/;"	f
+test_generate_spiral_order	test/arrays/test_generate_spiral_order.py	/^def test_generate_spiral_order() -> None:$/;"	f
+test_generate_spiral_order	test/arrays/test_generate_spiral_sequence.py	/^def test_generate_spiral_order() -> None:$/;"	f
+test_generate_spiral_order2	test/arrays/test_generate_spiral_order.py	/^def test_generate_spiral_order2() -> None:$/;"	f
+test_generate_spiral_order2	test/arrays/test_generate_spiral_sequence.py	/^def test_generate_spiral_order2() -> None:$/;"	f
+test_generate_spiral_order3	test/arrays/test_generate_spiral_order.py	/^def test_generate_spiral_order3() -> None:$/;"	f
+test_has_cycle0	test/linked_lists/test_is_list_cyclic.py	/^def test_has_cycle0() -> None:$/;"	f
+test_has_cycle1	test/linked_lists/test_is_list_cyclic.py	/^def test_has_cycle1() -> None:$/;"	f
+test_has_three_sum	test/greedy/test_three_sum.py	/^def test_has_three_sum() -> bool:$/;"	f
+test_has_three_sum1	test/greedy/test_three_sum.py	/^def test_has_three_sum1() -> bool:$/;"	f
+test_has_two_sum	test/greedy/test_two_sum.py	/^def test_has_two_sum() -> None:$/;"	f
+test_has_two_sum1	test/greedy/test_two_sum.py	/^def test_has_two_sum1() -> None:$/;"	f
+test_has_two_sum2	test/greedy/test_two_sum.py	/^def test_has_two_sum2() -> None:$/;"	f
+test_has_two_sum3	test/greedy/test_two_sum.py	/^def test_has_two_sum3() -> None:$/;"	f
+test_int_to_string0	test/strings/test_string_integer_interconversion.py	/^def test_int_to_string0():$/;"	f
+test_int_to_string1	test/strings/test_string_integer_interconversion.py	/^def test_int_to_string1():$/;"	f
+test_int_to_string2	test/strings/test_string_integer_interconversion.py	/^def test_int_to_string2():$/;"	f
+test_int_to_string3	test/strings/test_string_integer_interconversion.py	/^def test_int_to_string3():$/;"	f
+test_intersect_two_sorted_arrays0	test/sorting/test_intersect_two_sorted_arrays.py	/^def test_intersect_two_sorted_arrays0():$/;"	f
+test_intersect_two_sorted_arrays0	test/sorting/test_intersect_two_sorted_arrays2.py	/^def test_intersect_two_sorted_arrays0():$/;"	f
+test_intersect_two_sorted_arrays0	test/sorting/test_intersect_two_sorted_arrays3.py	/^def test_intersect_two_sorted_arrays0():$/;"	f
+test_intersect_two_sorted_arrays1	test/sorting/test_intersect_two_sorted_arrays.py	/^def test_intersect_two_sorted_arrays1():$/;"	f
+test_intersect_two_sorted_arrays1	test/sorting/test_intersect_two_sorted_arrays2.py	/^def test_intersect_two_sorted_arrays1():$/;"	f
+test_intersect_two_sorted_arrays1	test/sorting/test_intersect_two_sorted_arrays3.py	/^def test_intersect_two_sorted_arrays1():$/;"	f
+test_intersect_two_sorted_arrays2	test/sorting/test_intersect_two_sorted_arrays.py	/^def test_intersect_two_sorted_arrays2():$/;"	f
+test_intersect_two_sorted_arrays2	test/sorting/test_intersect_two_sorted_arrays2.py	/^def test_intersect_two_sorted_arrays2():$/;"	f
+test_intersect_two_sorted_arrays2	test/sorting/test_intersect_two_sorted_arrays3.py	/^def test_intersect_two_sorted_arrays2():$/;"	f
+test_intersect_two_sorted_arrays3	test/sorting/test_intersect_two_sorted_arrays.py	/^def test_intersect_two_sorted_arrays3():$/;"	f
+test_intersect_two_sorted_arrays3	test/sorting/test_intersect_two_sorted_arrays2.py	/^def test_intersect_two_sorted_arrays3():$/;"	f
+test_intersect_two_sorted_arrays3	test/sorting/test_intersect_two_sorted_arrays3.py	/^def test_intersect_two_sorted_arrays3():$/;"	f
+test_is_balanced_binary_tree0	test/binary_trees/test_is_balanced_tree.py	/^def test_is_balanced_binary_tree0():$/;"	f
+test_is_balanced_binary_tree1	test/binary_trees/test_is_balanced_tree.py	/^def test_is_balanced_binary_tree1():$/;"	f
+test_is_binary_tree_bst0	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst0() -> bool:$/;"	f
+test_is_binary_tree_bst0	test/binary_search_trees/test_is_tree_a_bst2.py	/^def test_is_binary_tree_bst0() -> bool:$/;"	f
+test_is_binary_tree_bst1	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst1() -> bool:$/;"	f
+test_is_binary_tree_bst1	test/binary_search_trees/test_is_tree_a_bst2.py	/^def test_is_binary_tree_bst1() -> bool:$/;"	f
+test_is_binary_tree_bst2	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst2() -> bool:$/;"	f
+test_is_binary_tree_bst2	test/binary_search_trees/test_is_tree_a_bst2.py	/^def test_is_binary_tree_bst2() -> bool:$/;"	f
+test_is_letter_constructible_from_magazine0	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine0():$/;"	f
+test_is_letter_constructible_from_magazine1	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine1():$/;"	f
+test_is_letter_constructible_from_magazine2	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine2():$/;"	f
+test_is_letter_constructible_from_magazine_pythonic0	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine_pythonic0():$/;"	f
+test_is_letter_constructible_from_magazine_pythonic1	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine_pythonic1():$/;"	f
+test_is_letter_constructible_from_magazine_pythonic2	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine_pythonic2():$/;"	f
+test_is_palindromic0	test/strings/test_is_string_palindromic.py	/^def test_is_palindromic0():$/;"	f
+test_is_palindromic1	test/strings/test_is_string_palindromic.py	/^def test_is_palindromic1():$/;"	f
+test_is_palindromic2	test/strings/test_is_string_palindromic.py	/^def test_is_palindromic2():$/;"	f
+test_lca0	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^def test_lca0() -> None:$/;"	f
+test_lca1	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^def test_lca1() -> None:$/;"	f
+test_lca2	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^def test_lca2() -> None:$/;"	f
+test_longest_subarray_equal	test/arrays/test_longest_subarray_equal.py	/^def test_longest_subarray_equal() -> None:$/;"	f
+test_longest_subarray_equal2	test/arrays/test_longest_subarray_equal.py	/^def test_longest_subarray_equal2() -> None:$/;"	f
+test_longest_subarray_equal3	test/arrays/test_longest_subarray_equal.py	/^def test_longest_subarray_equal3() -> None:$/;"	f
+test_longest_subarray_equal4	test/arrays/test_longest_subarray_equal.py	/^def test_longest_subarray_equal4() -> None:$/;"	f
+test_longest_subarray_equal5	test/arrays/test_longest_subarray_equal.py	/^def test_longest_subarray_equal5() -> None:$/;"	f
+test_longest_subarray_equal6	test/arrays/test_longest_subarray_equal.py	/^def test_longest_subarray_equal6() -> None:$/;"	f
+test_matrix_in_spiral_order	test/arrays/test_spiral_ordering.py	/^def test_matrix_in_spiral_order() -> None:$/;"	f
+test_matrix_in_spiral_order	test/arrays/test_spiral_ordering2.py	/^def test_matrix_in_spiral_order() -> None:$/;"	f
+test_matrix_in_spiral_order2	test/arrays/test_spiral_ordering.py	/^def test_matrix_in_spiral_order2() -> None:$/;"	f
+test_matrix_in_spiral_order2	test/arrays/test_spiral_ordering2.py	/^def test_matrix_in_spiral_order2() -> None:$/;"	f
+test_matrix_in_spiral_order3	test/arrays/test_spiral_ordering.py	/^def test_matrix_in_spiral_order3() -> None:$/;"	f
+test_matrix_in_spiral_order3	test/arrays/test_spiral_ordering2.py	/^def test_matrix_in_spiral_order3() -> None:$/;"	f
+test_merge_sorted_arrays0	test/heaps/test_sorted_arrays_merge.py	/^def test_merge_sorted_arrays0():$/;"	f
+test_merge_sorted_arrays1	test/heaps/test_sorted_arrays_merge.py	/^def test_merge_sorted_arrays1():$/;"	f
+test_merge_sorted_arrays2	test/heaps/test_sorted_arrays_merge.py	/^def test_merge_sorted_arrays2():$/;"	f
+test_merge_sorted_arrays_pythonic0	test/heaps/test_sorted_arrays_merge.py	/^def test_merge_sorted_arrays_pythonic0():$/;"	f
+test_merge_sorted_arrays_pythonic1	test/heaps/test_sorted_arrays_merge.py	/^def test_merge_sorted_arrays_pythonic1():$/;"	f
+test_merge_sorted_arrays_pythonic2	test/heaps/test_sorted_arrays_merge.py	/^def test_merge_sorted_arrays_pythonic2():$/;"	f
+test_merge_two_sorted_arrays0	test/sorting/test_two_sorted_arrays_merge.py	/^def test_merge_two_sorted_arrays0() -> None:$/;"	f
+test_merge_two_sorted_lists0	test/linked_lists/test_sorted_lists_merge.py	/^def test_merge_two_sorted_lists0():$/;"	f
+test_merge_two_sorted_lists1	test/linked_lists/test_sorted_lists_merge.py	/^def test_merge_two_sorted_lists1():$/;"	f
+test_merge_two_sorted_lists2	test/linked_lists/test_sorted_lists_merge.py	/^def test_merge_two_sorted_lists2():$/;"	f
+test_merge_two_sorted_lists3	test/linked_lists/test_sorted_lists_merge.py	/^def test_merge_two_sorted_lists3():$/;"	f
+test_num_combinations_for_final_score	test/dynamic_programming/test_number_of_score_combinations.py	/^def test_num_combinations_for_final_score() -> None:$/;"	f
+test_num_combinations_for_final_score1	test/dynamic_programming/test_number_of_score_combinations.py	/^def test_num_combinations_for_final_score1() -> None:$/;"	f
+test_plus_one	test/arrays/test_int_as_array_increment.py	/^def test_plus_one() -> None:$/;"	f
+test_plus_one2	test/arrays/test_int_as_array_increment.py	/^def test_plus_one2() -> None:$/;"	f
+test_plus_one3	test/arrays/test_int_as_array_increment.py	/^def test_plus_one3() -> None:$/;"	f
+test_plus_one4	test/arrays/test_int_as_array_increment.py	/^def test_plus_one4() -> None:$/;"	f
+test_plus_one5	test/arrays/test_int_as_array_increment.py	/^def test_plus_one5() -> None:$/;"	f
+test_print_linked_list_in_reverse	test/stacks_queues/test_print_linked_list_in_reverse.py	/^def test_print_linked_list_in_reverse() -> None:$/;"	f
+test_random_sampling	src/arrays/offline_sampling.py	/^def test_random_sampling() -> list[int]:$/;"	f
+test_random_sampling2	src/arrays/offline_sampling.py	/^def test_random_sampling2() -> list[int]:$/;"	f
+test_random_sampling3	src/arrays/offline_sampling.py	/^def test_random_sampling3() -> list[int]:$/;"	f
+test_random_sampling4	src/arrays/offline_sampling.py	/^def test_random_sampling4() -> list[int]:$/;"	f
+test_replace_and_remove0	test/strings/test_replace_and_remove.py	/^def test_replace_and_remove0() -> None:$/;"	f
+test_reverse_sublist	test/linked_lists/test_reverse_sublist.py	/^def test_reverse_sublist() -> None:$/;"	f
+test_search_first_of_k0	test/searching/test_search_first_of_k.py	/^def test_search_first_of_k0():$/;"	f
+test_search_first_of_k1	test/searching/test_search_first_of_k.py	/^def test_search_first_of_k1():$/;"	f
+test_search_first_of_k2	test/searching/test_search_first_of_k.py	/^def test_search_first_of_k2():$/;"	f
+test_search_first_of_k3	test/searching/test_search_first_of_k.py	/^def test_search_first_of_k3():$/;"	f
+test_search_in_bst0	test/binary_search_trees/test_bst.py	/^def test_search_in_bst0():$/;"	f
+test_search_maze	test/graphs/test_search_maze.py	/^def test_search_maze() -> None:$/;"	f
+test_search_student0	test/searching/test_search_gpa.py	/^def test_search_student0():$/;"	f
+test_square_root0	test/searching/test_int_square_root.py	/^def test_square_root0() -> None:$/;"	f
+test_square_root1	test/searching/test_int_square_root.py	/^def test_square_root1() -> None:$/;"	f
+test_square_root2	test/searching/test_int_square_root.py	/^def test_square_root2() -> None:$/;"	f
+test_square_root3	test/searching/test_int_square_root.py	/^def test_square_root3() -> None:$/;"	f
+test_ss_decode_col_id0	test/strings/test_spreadsheet_encoding.py	/^def test_ss_decode_col_id0() -> None:$/;"	f
+test_ss_decode_col_id1	test/strings/test_spreadsheet_encoding.py	/^def test_ss_decode_col_id1() -> None:$/;"	f
+test_ss_decode_col_id2	test/strings/test_spreadsheet_encoding.py	/^def test_ss_decode_col_id2() -> None:$/;"	f
+test_ss_decode_col_id3	test/strings/test_spreadsheet_encoding.py	/^def test_ss_decode_col_id3() -> None:$/;"	f
+test_string_to_int0	test/strings/test_string_integer_interconversion.py	/^def test_string_to_int0():$/;"	f
+test_string_to_int1	test/strings/test_string_integer_interconversion.py	/^def test_string_to_int1():$/;"	f
+test_string_to_int2	test/strings/test_string_integer_interconversion.py	/^def test_string_to_int2():$/;"	f
+test_string_to_int3	test/strings/test_string_integer_interconversion.py	/^def test_string_to_int3():$/;"	f
+test_top_k0	test/heaps/test_top_k.py	/^def test_top_k0():$/;"	f
+test_top_k1	test/heaps/test_top_k.py	/^def test_top_k1():$/;"	f
+toggle_turn	src/parallel_computing/odd_even_threads.py	/^    def toggle_turn(self):$/;"	m	class:OddEvenMonitor
+top_k	src/heaps/top_k.py	/^def top_k(k: int, stream: Iterator[str]) -> List[str]:$/;"	f
+tree_traversal	src/binary_trees/tree_traversal.py	/^def tree_traversal(root: BinaryTreeNode) -> None:$/;"	f
+wait_turn	src/parallel_computing/odd_even_threads.py	/^    def wait_turn(self, old_turn):$/;"	m	class:OddEvenMonitor
