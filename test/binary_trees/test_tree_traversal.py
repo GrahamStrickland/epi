@@ -1,25 +1,24 @@
 #!usr/bin/env python3
+from src.binary_trees.binary_tree import BinaryTreeNode
+from src.binary_trees.tree_traversal import tree_traversal
 
 
-from binary_tree import BinaryTreeNode
-from tree_traversal import tree_traversal
-
-
-E = BinaryTreeNode(0)
-D = BinaryTreeNode(28)
-C = BinaryTreeNode(271, D, E)
-H = BinaryTreeNode(17)
-G = BinaryTreeNode(3, H)
-F = BinaryTreeNode(561, None, G)
-B = BinaryTreeNode(6, C, F)
-M = BinaryTreeNode(641)
-N = BinaryTreeNode(257)
-L = BinaryTreeNode(401, None, M)
-K = BinaryTreeNode(1, L, N)
-J = BinaryTreeNode(2, None, K)
-P = BinaryTreeNode(28)
-O = BinaryTreeNode(271, None, P)
-I = BinaryTreeNode(6, J, O)
-A = BinaryTreeNode(314, B, I)
+E = BinaryTreeNode(data=0)
+D = BinaryTreeNode(data=28)
+C = BinaryTreeNode(data=271, left=D, right=E)
+H = BinaryTreeNode(data=17)
+G = BinaryTreeNode(data=3, left=H)
+F = BinaryTreeNode(data=561, right=G)
+B = BinaryTreeNode(data=6, left=C, right=F)
+M = BinaryTreeNode(data=641)
+N = BinaryTreeNode(data=257)
+L = BinaryTreeNode(data=401, right=M)
+K = BinaryTreeNode(data=1, left=L, right=N)
+J = BinaryTreeNode(data=2, right=K)
+P = BinaryTreeNode(data=28)
+O = BinaryTreeNode(data=271, right=P)
+I = BinaryTreeNode(data=6, left=J, right=O)
+A = BinaryTreeNode(data=314, left=B, right=I)
 
 tree_traversal(A)
+

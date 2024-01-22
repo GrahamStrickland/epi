@@ -1,7 +1,5 @@
 #!usr/bin/env python3
-
-
-from binary_tree import BinaryTreeNode
+from .binary_tree import BinaryTreeNode
 
 
 def tree_traversal(root: BinaryTreeNode) -> None:
@@ -17,3 +15,4 @@ def tree_traversal(root: BinaryTreeNode) -> None:
         # Postorder: Processes the root after the traversals of left and right
         # children.
         print('Postorder: %d' % root.data)
+

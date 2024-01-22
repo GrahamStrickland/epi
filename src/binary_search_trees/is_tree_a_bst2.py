@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-
-
 import collections
-from binary_tree import BinaryTreeNode
+from ..binary_trees.binary_tree import BinaryTreeNode
 
 
 def is_binary_tree_bst(tree: BinaryTreeNode) -> bool:
@@ -22,3 +20,4 @@ def is_binary_tree_bst(tree: BinaryTreeNode) -> bool:
                  QueueEntry(front.node.right, front.node.data, front.upper)))
 
     return True
+

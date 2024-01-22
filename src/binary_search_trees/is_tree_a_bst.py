@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-
-
-from binary_tree import BinaryTreeNode
+from ..binary_trees.binary_tree import BinaryTreeNode
 
 
 def is_binary_tree_bst(tree: BinaryTreeNode) -> bool:
@@ -16,3 +14,4 @@ def is_binary_tree_bst(tree: BinaryTreeNode) -> bool:
                 and are_keys_in_range(tree.right, tree.data, high_range))
 
     return are_keys_in_range(tree)
+

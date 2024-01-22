@@ -1,30 +1,26 @@
 #!usr/bin/env python3
-
-
 from src.binary_trees.is_tree_balanced import is_balanced_binary_tree
 from src.binary_trees.binary_tree import BinaryTreeNode
 
 
 def test_is_balanced_binary_tree0():
-    # Create binary tree.
-    D = BinaryTreeNode(28)
-    E = BinaryTreeNode(0)
-    C = BinaryTreeNode(271, D, E)
-    H = BinaryTreeNode(17)
-    G = BinaryTreeNode(3, H)
-    F = BinaryTreeNode(561, None, G)
-    B = BinaryTreeNode(6, C, F)
-    M = BinaryTreeNode(641)
-    N = BinaryTreeNode(257)
-    L = BinaryTreeNode(401, None, M)
-    K = BinaryTreeNode(1, L, N)
-    J = BinaryTreeNode(2, None, K)
-    P = BinaryTreeNode(28)
-    O = BinaryTreeNode(271, None, P)
-    I = BinaryTreeNode(6, J, O)
-    A = BinaryTreeNode(314, B, I)
+    D = BinaryTreeNode(data=28)
+    E = BinaryTreeNode(data=0)
+    C = BinaryTreeNode(data=271, left=D, right=E)
+    H = BinaryTreeNode(data=17)
+    G = BinaryTreeNode(data=3, left=H)
+    F = BinaryTreeNode(data=561, right=G)
+    B = BinaryTreeNode(data=6, left=C, right=F)
+    M = BinaryTreeNode(data=641)
+    N = BinaryTreeNode(data=257)
+    L = BinaryTreeNode(data=401, right=M)
+    K = BinaryTreeNode(data=1, left=L, right=N)
+    J = BinaryTreeNode(data=2, right=K)
+    P = BinaryTreeNode(data=28)
+    O = BinaryTreeNode(data=271, right=P)
+    I = BinaryTreeNode(data=6, left=J, right=O)
+    A = BinaryTreeNode(data=314, left=B, right=I)
 
-    # Test function.
     obs = is_balanced_binary_tree(A)
     exp = False
 
@@ -32,22 +28,21 @@ def test_is_balanced_binary_tree0():
 
 
 def test_is_balanced_binary_tree1():
-    # Create binary tree.
-    E = BinaryTreeNode(0)
-    F = BinaryTreeNode(561)
-    D = BinaryTreeNode(28, E, F)
-    G = BinaryTreeNode(3)
-    C = BinaryTreeNode(271, D, G)
-    I = BinaryTreeNode(6)
-    J = BinaryTreeNode(2)
-    H = BinaryTreeNode(17, I, J)
-    B = BinaryTreeNode(6, C, H)
-    M = BinaryTreeNode(641)
-    N = BinaryTreeNode(257)
-    L = BinaryTreeNode(401, M, N)
-    O = BinaryTreeNode(271)
-    K = BinaryTreeNode(1, L, O)
-    A = BinaryTreeNode(314, B, K)
+    E = BinaryTreeNode(data=0)
+    F = BinaryTreeNode(data=561)
+    D = BinaryTreeNode(data=28, left=E, right=F)
+    G = BinaryTreeNode(data=3)
+    C = BinaryTreeNode(data=271, left=D, right=G)
+    I = BinaryTreeNode(data=6)
+    J = BinaryTreeNode(data=2)
+    H = BinaryTreeNode(data=17, left=I, right=J)
+    B = BinaryTreeNode(data=6, left=C, right=H)
+    M = BinaryTreeNode(data=641)
+    N = BinaryTreeNode(data=257)
+    L = BinaryTreeNode(data=401, left=M, right=N)
+    O = BinaryTreeNode(data=271)
+    K = BinaryTreeNode(data=1, left=L, right=O)
+    A = BinaryTreeNode(data=314, left=B, right=K)
 
     # Test function
     obs = is_balanced_binary_tree(A)

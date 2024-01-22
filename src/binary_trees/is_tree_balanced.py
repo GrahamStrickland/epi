@@ -1,8 +1,6 @@
 #!usr/bin/env python3
-
-
 import collections
-from binary_tree import BinaryTreeNode
+from .binary_tree import BinaryTreeNode
 
 
 def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:
@@ -28,3 +26,4 @@ def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:
         return BalancedStatusWithHeight(is_balanced, height)
 
     return check_balanced(tree).balanced
+

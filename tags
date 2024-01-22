@@ -6,69 +6,69 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 A	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^A = BstNode(19, B, I)$/;"	v
 A	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^A = BinaryTreeNode(None, 314, B, I)$/;"	v
-A	test/binary_trees/test_tree_traversal.py	/^A = BinaryTreeNode(314, B, I)$/;"	v
+A	test/binary_trees/test_tree_traversal.py	/^A = BinaryTreeNode(data=314, left=B, right=I)$/;"	v
 B	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^B = BstNode(7, C, F)$/;"	v
 B	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^B = BinaryTreeNode(None, 6, C, F)$/;"	v
-B	test/binary_trees/test_tree_traversal.py	/^B = BinaryTreeNode(6, C, F)$/;"	v
+B	test/binary_trees/test_tree_traversal.py	/^B = BinaryTreeNode(data=6, left=C, right=F)$/;"	v
 BinaryTreeNode	src/binary_search_trees/binary_tree.py	/^class BinaryTreeNode:$/;"	c
 BinaryTreeNode	src/binary_trees/binary_tree.py	/^class BinaryTreeNode:$/;"	c
 BinaryTreeNode	src/stacks_queues/binary_tree.py	/^class BinaryTreeNode:$/;"	c
 BstNode	src/binary_search_trees/bst.py	/^class BstNode:$/;"	c
 C	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^C = BstNode(3, D, E)$/;"	v
 C	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^C = BinaryTreeNode(None, 271, D, E)$/;"	v
-C	test/binary_trees/test_tree_traversal.py	/^C = BinaryTreeNode(271, D, E)$/;"	v
+C	test/binary_trees/test_tree_traversal.py	/^C = BinaryTreeNode(data=271, left=D, right=E)$/;"	v
 ContactList	src/hash_tables/contact_list.py	/^class ContactList:$/;"	c
 Coordinate	src/graphs/search_maze.py	/^Coordinate = collections.namedtuple('Coordinate', ('x', 'y'))$/;"	v
 D	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^D = BstNode(2)$/;"	v
 D	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^D = BinaryTreeNode(None, 28)$/;"	v
-D	test/binary_trees/test_tree_traversal.py	/^D = BinaryTreeNode(28)$/;"	v
+D	test/binary_trees/test_tree_traversal.py	/^D = BinaryTreeNode(data=28)$/;"	v
 E	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^E = BstNode(5)$/;"	v
 E	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^E = BinaryTreeNode(None, 0)$/;"	v
-E	test/binary_trees/test_tree_traversal.py	/^E = BinaryTreeNode(0)$/;"	v
+E	test/binary_trees/test_tree_traversal.py	/^E = BinaryTreeNode(data=0)$/;"	v
 EVEN_TURN	src/parallel_computing/odd_even_threads.py	/^    EVEN_TURN = False$/;"	v	class:OddEvenMonitor
 ElementWithCachedMax	src/stacks_queues/stack_with_max.py	/^    ElementWithCachedMax = collections.namedtuple('ElementWithCachedMax',$/;"	v	class:Stack
 EvenThread	src/parallel_computing/odd_even_threads.py	/^class EvenThread(threading.Thread):$/;"	c
 F	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^F = BstNode(11, None, G)$/;"	v
 F	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^F = BinaryTreeNode(None, 561, None, G)$/;"	v
-F	test/binary_trees/test_tree_traversal.py	/^F = BinaryTreeNode(561, None, G)$/;"	v
+F	test/binary_trees/test_tree_traversal.py	/^F = BinaryTreeNode(data=561, right=G)$/;"	v
 G	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^G = BstNode(17, H)$/;"	v
 G	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^G = BinaryTreeNode(None, 3, H)$/;"	v
-G	test/binary_trees/test_tree_traversal.py	/^G = BinaryTreeNode(3, H)$/;"	v
+G	test/binary_trees/test_tree_traversal.py	/^G = BinaryTreeNode(data=3, left=H)$/;"	v
 H	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^H = BstNode(13)$/;"	v
 H	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^H = BinaryTreeNode(None, 17)$/;"	v
-H	test/binary_trees/test_tree_traversal.py	/^H = BinaryTreeNode(17)$/;"	v
+H	test/binary_trees/test_tree_traversal.py	/^H = BinaryTreeNode(data=17)$/;"	v
 I	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^I = BstNode(43, J, O)$/;"	v
 I	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^I = BinaryTreeNode(None, 6, J, O)$/;"	v
-I	test/binary_trees/test_tree_traversal.py	/^I = BinaryTreeNode(6, J, O)$/;"	v
+I	test/binary_trees/test_tree_traversal.py	/^I = BinaryTreeNode(data=6, left=J, right=O)$/;"	v
 J	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^J = BstNode(23, None, K)$/;"	v
 J	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^J = BinaryTreeNode(None, 2, None, K)$/;"	v
-J	test/binary_trees/test_tree_traversal.py	/^J = BinaryTreeNode(2, None, K)$/;"	v
+J	test/binary_trees/test_tree_traversal.py	/^J = BinaryTreeNode(data=2, right=K)$/;"	v
 K	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^K = BstNode(37, L, N)$/;"	v
 K	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^K = BinaryTreeNode(None, 1, L, N)$/;"	v
-K	test/binary_trees/test_tree_traversal.py	/^K = BinaryTreeNode(1, L, N)$/;"	v
+K	test/binary_trees/test_tree_traversal.py	/^K = BinaryTreeNode(data=1, left=L, right=N)$/;"	v
 L	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^L = BstNode(29, None, M)$/;"	v
 L	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^L = BinaryTreeNode(None, 401, None, M)$/;"	v
-L	test/binary_trees/test_tree_traversal.py	/^L = BinaryTreeNode(401, None, M)$/;"	v
+L	test/binary_trees/test_tree_traversal.py	/^L = BinaryTreeNode(data=401, right=M)$/;"	v
 LRUCache	src/hash_tables/lru_cache.py	/^class LRUCache:$/;"	c
 ListNode	src/linked_lists/linked_list.py	/^class ListNode:$/;"	c
 ListNode	src/stacks_queues/linked_list.py	/^class ListNode:$/;"	c
 M	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^M = BstNode(31)$/;"	v
 M	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^M = BinaryTreeNode(None, 641)$/;"	v
-M	test/binary_trees/test_tree_traversal.py	/^M = BinaryTreeNode(641)$/;"	v
+M	test/binary_trees/test_tree_traversal.py	/^M = BinaryTreeNode(data=641)$/;"	v
 MatchResult	src/graphs/match_result.py	/^MatchResult = collections.namedtuple('MatchResult',$/;"	v
 N	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^N = BstNode(41)$/;"	v
 N	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^N = BinaryTreeNode(None, 257)$/;"	v
-N	test/binary_trees/test_tree_traversal.py	/^N = BinaryTreeNode(257)$/;"	v
+N	test/binary_trees/test_tree_traversal.py	/^N = BinaryTreeNode(data=257)$/;"	v
 NUM_PEGS	src/recursion/hanoi.py	/^NUM_PEGS = 3$/;"	v
 O	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^O = BstNode(47, None, P)$/;"	v
 O	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^O = BinaryTreeNode(None, 271, None, P)$/;"	v
-O	test/binary_trees/test_tree_traversal.py	/^O = BinaryTreeNode(271, None, P)$/;"	v
+O	test/binary_trees/test_tree_traversal.py	/^O = BinaryTreeNode(data=271, right=P)$/;"	v
 ODD_TURN	src/parallel_computing/odd_even_threads.py	/^    ODD_TURN = True$/;"	v	class:OddEvenMonitor
 OddEvenMonitor	src/parallel_computing/odd_even_threads.py	/^class OddEvenMonitor(threading.Condition):$/;"	c
 OddThread	src/parallel_computing/odd_even_threads.py	/^class OddThread(threading.Thread):$/;"	c
 P	test/binary_search_trees/test_search_first_greater_value_in_bst.py	/^P = BstNode(53)$/;"	v
 P	test/binary_trees/test_lowest_common_ancestor_with_parent.py	/^P = BinaryTreeNode(None, 28)$/;"	v
-P	test/binary_trees/test_tree_traversal.py	/^P = BinaryTreeNode(28)$/;"	v
+P	test/binary_trees/test_tree_traversal.py	/^P = BinaryTreeNode(data=28)$/;"	v
 PRECOMPUTED_PARITY	src/primitive_types/parity3.py	/^PRECOMPUTED_PARITY = {x: parity(x) for x in range(2**16)}$/;"	v
 Queue	src/stacks_queues/queue.py	/^class Queue:$/;"	c
 Semaphore	src/parallel_computing/semaphore.py	/^class Semaphore():$/;"	c
@@ -183,7 +183,7 @@ lca	src/binary_trees/lowest_common_ancestor_with_parent.py	/^def lca(node0: Bina
 linked_list_from_arr	test/stacks_queues/test_print_linked_list_in_reverse.py	/^def linked_list_from_arr(arr: List[int]) -> ListNode:$/;"	f
 longest_subarray_equal	src/arrays/longest_subarray_equal.py	/^def longest_subarray_equal(A: list[int]) -> int:$/;"	f
 lookup	src/hash_tables/lru_cache.py	/^    def lookup(self, isbn: int) -> int:$/;"	m	class:LRUCache
-main	src/hash_tables/test_lru_cache.py	/^def main() -> None:$/;"	f
+main	test/hash_tables/test_lru_cache.py	/^def main() -> None:$/;"	f
 matrix_in_spiral_order	src/arrays/spiral_ordering.py	/^def matrix_in_spiral_order(square_matrix: list[list[int]]) -> list[int]:$/;"	f
 matrix_in_spiral_order	src/arrays/spiral_ordering2.py	/^def matrix_in_spiral_order(square_matrix: list[list[int]]) -> list[int]:$/;"	f
 matrix_layer_in_clockwise	src/arrays/spiral_ordering.py	/^    def matrix_layer_in_clockwise(offset):$/;"	f	function:matrix_in_spiral_order
@@ -248,7 +248,7 @@ test_change_making2	test/greedy/test_making_change.py	/^def test_change_making2(
 test_change_making3	test/greedy/test_making_change.py	/^def test_change_making3() -> None:$/;"	f
 test_compute_tower_of_hanoi	test/recursion/test_hanoi.py	/^def test_compute_tower_of_hanoi() -> None:$/;"	f
 test_compute_tower_of_hanoi1	test/recursion/test_hanoi.py	/^def test_compute_tower_of_hanoi1() -> None:$/;"	f
-test_contact_list0	src/hash_tables/test_contact_list.py	/^def test_contact_list0() -> None:$/;"	f
+test_contact_list0	test/hash_tables/test_contact_list.py	/^def test_contact_list0() -> None:$/;"	f
 test_convert_base0	test/strings/test_convert_base.py	/^def test_convert_base0() -> None:$/;"	f
 test_convert_base1	test/strings/test_convert_base.py	/^def test_convert_base1() -> None:$/;"	f
 test_convert_base2	test/strings/test_convert_base.py	/^def test_convert_base2() -> None:$/;"	f
@@ -341,11 +341,11 @@ test_intersect_two_sorted_arrays3	test/sorting/test_intersect_two_sorted_arrays2
 test_intersect_two_sorted_arrays3	test/sorting/test_intersect_two_sorted_arrays3.py	/^def test_intersect_two_sorted_arrays3():$/;"	f
 test_is_balanced_binary_tree0	test/binary_trees/test_is_balanced_tree.py	/^def test_is_balanced_binary_tree0():$/;"	f
 test_is_balanced_binary_tree1	test/binary_trees/test_is_balanced_tree.py	/^def test_is_balanced_binary_tree1():$/;"	f
-test_is_binary_tree_bst0	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst0() -> bool:$/;"	f
+test_is_binary_tree_bst0	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst0() -> None:$/;"	f
 test_is_binary_tree_bst0	test/binary_search_trees/test_is_tree_a_bst2.py	/^def test_is_binary_tree_bst0() -> bool:$/;"	f
-test_is_binary_tree_bst1	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst1() -> bool:$/;"	f
+test_is_binary_tree_bst1	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst1() -> None:$/;"	f
 test_is_binary_tree_bst1	test/binary_search_trees/test_is_tree_a_bst2.py	/^def test_is_binary_tree_bst1() -> bool:$/;"	f
-test_is_binary_tree_bst2	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst2() -> bool:$/;"	f
+test_is_binary_tree_bst2	test/binary_search_trees/test_is_tree_a_bst.py	/^def test_is_binary_tree_bst2() -> None:$/;"	f
 test_is_binary_tree_bst2	test/binary_search_trees/test_is_tree_a_bst2.py	/^def test_is_binary_tree_bst2() -> bool:$/;"	f
 test_is_letter_constructible_from_magazine0	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine0():$/;"	f
 test_is_letter_constructible_from_magazine1	test/hash_tables/test_is_anonymous_letter_constructible.py	/^def test_is_letter_constructible_from_magazine1():$/;"	f
