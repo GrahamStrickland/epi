@@ -2,4 +2,4 @@
 
 
 def right_propagate_rightmost_bit(x: int) -> int:
-    return bin(x | (x ^ (x-1)))
+    return bin(x | (x ^ (x - 1)))

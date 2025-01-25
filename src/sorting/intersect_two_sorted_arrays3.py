@@ -13,6 +13,6 @@ def intersect_two_sorted_arrays(A: List[int], B: List[int]) -> List[int]:
             i, j = i + 1, j + 1
         elif A[i] < B[j]:
             i += 1
-        else:   # A[i] < B[j]
+        else:  # A[i] < B[j]
             j += 1
     return intersection_A_B

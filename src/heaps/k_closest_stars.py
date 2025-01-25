@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 
-import math
 import heapq
-from typing import List, Tuple, Iterator
+import math
+from typing import Iterator, List, Tuple
 
 
 class Star:
@@ -14,9 +14,9 @@ class Star:
     def distance(self) -> float:
         return math.sqrt(self.x**2 + self.y**2 + self.z**2)
 
-    def __lt__(self, rhs: 'Star') -> bool:
+    def __lt__(self, rhs: "Star") -> bool:
         return self.distance < rhs.distance
-    
+
 
 def find_k_closest_stars(stars: Iterator[Star], k: int) -> List[Star]:
     # max_heap to store the closest k stars seen so far.

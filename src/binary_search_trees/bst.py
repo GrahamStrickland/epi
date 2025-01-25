@@ -3,8 +3,7 @@
 
 from typing import Optional
 
-
-__all__ = ['BstNode', 'search_bst']
+__all__ = ["BstNode", "search_bst"]
 
 
 class BstNode:
@@ -13,5 +12,10 @@ class BstNode:
 
 
 def search_bst(tree: BstNode, key: int) -> Optional[BstNode]:
-    return (tree if not tree or tree.data == key else search_bst(
-        tree.left, key) if key < tree.data else search_bst(tree.right, key))
+    return (
+        tree
+        if not tree or tree.data == key
+        else search_bst(tree.left, key)
+        if key < tree.data
+        else search_bst(tree.right, key)
+    )

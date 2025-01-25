@@ -2,6 +2,7 @@
 
 
 from nose.tools import assert_equal
+
 from ..int_square_root import square_root
 
 

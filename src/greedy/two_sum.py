@@ -12,6 +12,6 @@ def has_two_sum(A: List[int], t: int) -> bool:
             return True
         elif A[i] + A[j] < t:
             i += 1
-        else:   # A[i] + A[j] > t.
+        else:  # A[i] + A[j] > t.
             j -= 1
     return False

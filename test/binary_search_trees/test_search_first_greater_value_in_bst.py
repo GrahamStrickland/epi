@@ -2,8 +2,8 @@
 
 
 from src.binary_search_trees.bst import BstNode
-from src.binary_search_trees.search_first_greater_value_in_bst import find_first_greater_than_k
-
+from src.binary_search_trees.search_first_greater_value_in_bst import \
+    find_first_greater_than_k
 
 P = BstNode(53)
 O = BstNode(47, None, P)
@@ -27,4 +27,3 @@ def test_find_first_greater_than_k0() -> None:
     obs = find_first_greater_than_k(A, 23)
     exp = L
     assert obs == exp
-

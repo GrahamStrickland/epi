@@ -3,7 +3,6 @@
 
 import collections
 
-
 c = collections.Counter(a=3, b=1)
 d = collections.Counter(a=1, b=2)
 # add two counters together: c[x] + d[x], collections.Counter({'a': 4, 'b': 3})

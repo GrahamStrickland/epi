@@ -12,7 +12,7 @@ def main() -> None:
     cache.lookup(1234567890)
 
     cache.erase(1234567890)
-    
+
     cache.lookup(1234567890)
 
 

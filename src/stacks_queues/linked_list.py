@@ -1,7 +1,7 @@
 #!usr/bin/env python3
 
 
-__all__ = ['ListNode', 'insert_after', 'delete_after', 'search_list']
+__all__ = ["ListNode", "insert_after", "delete_after", "search_list"]
 
 
 class ListNode:

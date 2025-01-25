@@ -5,7 +5,7 @@ from three_sum import has_three_sum
 
 
 def test_has_three_sum() -> bool:
-    A = [11,2,5,7,3]
+    A = [11, 2, 5, 7, 3]
     t = 21
     obs = has_three_sum(A, t)
     exp = True
@@ -13,7 +13,7 @@ def test_has_three_sum() -> bool:
 
 
 def test_has_three_sum1() -> bool:
-    A = [11,2,5,7,3]
+    A = [11, 2, 5, 7, 3]
     t = 22
     obs = has_three_sum(A, t)
     exp = False

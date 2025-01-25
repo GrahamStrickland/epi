@@ -39,8 +39,8 @@ def is_partitioned(A: list[int]) -> bool:
     for _ in range(3):
         if j >= len(A):
             break
-        val = A[j] 
+        val = A[j]
         while j < len(A) and A[j] == val:
             j += 1
-    
+
     return j == len(A)

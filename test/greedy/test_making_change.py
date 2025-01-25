@@ -2,6 +2,7 @@
 
 
 from nose.tools import assert_equal
+
 from .making_change import change_making
 
 

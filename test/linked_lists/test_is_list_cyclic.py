@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 
-from linked_list import *
 from is_list_cyclic import has_cycle
+from linked_list import *
 
 
 def test_has_cycle0() -> None:
     # Create list and enter data.
-    list_data = [11,7,5,3,2,4,8,9]
+    list_data = [11, 7, 5, 3, 2, 4, 8, 9]
     L = ListNode(data=0, next=None)
     list_iter = ListNode(data=list_data[0], next=None)
     list_data = list_data[1:]
@@ -28,7 +28,7 @@ def test_has_cycle0() -> None:
 
 def test_has_cycle1() -> None:
     # Create list and enter data.
-    list_data = [11,7,5,3,2,4,8,9]
+    list_data = [11, 7, 5, 3, 2, 4, 8, 9]
     L = ListNode(data=0, next=None)
     list_iter = ListNode(data=list_data[0], next=None)
     list_data = list_data[1:]

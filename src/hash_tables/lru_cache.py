@@ -2,13 +2,13 @@
 
 
 import collections
-from typing import OrderedDict
 
 
 class LRUCache:
     def __init__(self, capacity: int) -> None:
-        self._isbn_price_table: collections.OrderedDict[
-                int, int] = collections.OrderedDict()
+        self._isbn_price_table: collections.OrderedDict[int, int] = (
+            collections.OrderedDict()
+        )
         self._capacity = capacity
 
     def lookup(self, isbn: int) -> int:

@@ -2,11 +2,11 @@
 
 
 from typing import Optional
+
 from .binary_tree import BinaryTreeNode
 
 
-def lca(node0: BinaryTreeNode,
-        node1: BinaryTreeNode) -> Optional[BinaryTreeNode]:
+def lca(node0: BinaryTreeNode, node1: BinaryTreeNode) -> Optional[BinaryTreeNode]:
     def get_depth(node):
         depth = 0
         while node.parent:

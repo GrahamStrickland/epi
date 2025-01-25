@@ -7,7 +7,7 @@ from reverse_sublist import reverse_sublist
 
 def test_reverse_sublist() -> None:
     # Create list and enter data.
-    list_data = [11,7,5,3,2]
+    list_data = [11, 7, 5, 3, 2]
     L = ListNode(data=0, next=None)
     list_iter = ListNode(data=list_data[0], next=None)
     list_data = list_data[1:]

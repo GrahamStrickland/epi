@@ -78,4 +78,3 @@ def test_is_binary_tree_bst2() -> None:
     exp = False
 
     assert obs == exp
-

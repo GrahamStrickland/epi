@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 def parity(x: int) -> int:
     x ^= x >> 32
     x ^= x >> 16

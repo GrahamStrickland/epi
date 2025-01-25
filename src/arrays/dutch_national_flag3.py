@@ -17,6 +17,6 @@ def dutch_flag_partition(pivot_index: int, A: list[int]) -> None:
             smaller, equal = smaller + 1, equal + 1
         elif A[equal] == pivot:
             equal += 1
-        else:   # A[equal] > pivot
+        else:  # A[equal] > pivot
             larger -= 1
             A[equal], A[larger] = A[larger], A[equal]

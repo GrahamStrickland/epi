@@ -3,16 +3,11 @@ class Student:
         self.name = name
         self.grade_point_average = grade_point_average
 
-    def __lt__(self, other: 'Student') -> bool:
+    def __lt__(self, other: "Student") -> bool:
         return self.name < other.name
 
 
-students = [
-    Student('A', 4.0),
-    Student('B', 3.0),
-    Student('C', 2.0),
-    Student('D', 3.2)
-]
+students = [Student("A", 4.0), Student("B", 3.0), Student("C", 2.0), Student("D", 3.2)]
 
 # Sort according to __lt__ defined in Student. students remains unchanged.
 students_sort_by_name = sorted(students)

@@ -1,7 +1,7 @@
 #!usr/bin/env python3
 
 
-__all__ = ['BinaryTreeNode']
+__all__ = ["BinaryTreeNode"]
 
 
 class BinaryTreeNode:
@@ -10,4 +10,3 @@ class BinaryTreeNode:
         self.data = data
         self.left = left
         self.right = right
-

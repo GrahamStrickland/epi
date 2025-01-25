@@ -25,7 +25,7 @@ def test_is_binary_tree_bst0() -> bool:
     # Test for BST condition.
     obs = is_binary_tree_bst(A)
     exp = True
-    
+
     assert obs == exp
 
 
@@ -78,4 +78,3 @@ def test_is_binary_tree_bst2() -> bool:
     exp = False
 
     assert obs == exp
-

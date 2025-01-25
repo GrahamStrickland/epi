@@ -1,8 +1,7 @@
 #!usr/bin/env python3
 
 
-from linked_list import ListNode, insert_after
-from typing import List
+from linked_list import ListNode
 
 
 def print_linked_list_in_reverse(head: ListNode) -> None:

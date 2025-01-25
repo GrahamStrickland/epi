@@ -1,16 +1,17 @@
 #!usr/bin/env python3
 
 
-__all__ = ['Stack']
+__all__ = ["Stack"]
 
 
 import collections
 from typing import List
 
 
-class Stack():
-    ElementWithCachedMax = collections.namedtuple('ElementWithCachedMax',
-            ('element', 'max'))
+class Stack:
+    ElementWithCachedMax = collections.namedtuple(
+        "ElementWithCachedMax", ("element", "max")
+    )
 
     def __init__(self) -> None:
         self._element_with_cached_max: List[Stack.ElementWithCachedMax] = []
@@ -26,5 +27,5 @@ class Stack():
 
     def push(self, x: int) -> None:
         self._element_with_cached_max.append(
-                self.ElementWithCachedMax(
-                    x, x if self.empty() else max(x, self.max())))
+            self.ElementWithCachedMax(x, x if self.empty() else max(x, self.max()))
+        )

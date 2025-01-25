@@ -2,6 +2,7 @@
 
 
 from nose.tools import assert_equal
+
 from ..spreadsheet_encoding import ss_decode_col_id
 
 

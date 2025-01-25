@@ -2,7 +2,6 @@
 from src.binary_trees.binary_tree import BinaryTreeNode
 from src.binary_trees.tree_traversal import tree_traversal
 
-
 E = BinaryTreeNode(data=0)
 D = BinaryTreeNode(data=28)
 C = BinaryTreeNode(data=271, left=D, right=E)
@@ -21,4 +20,3 @@ I = BinaryTreeNode(data=6, left=J, right=O)
 A = BinaryTreeNode(data=314, left=B, right=I)
 
 tree_traversal(A)
-

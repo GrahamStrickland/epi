@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 
-from linked_list import *
 from typing import Optional
+
+from linked_list import *
 
 
 def has_cycle(head: ListNode) -> Optional[ListNode]:
@@ -28,5 +29,5 @@ def has_cycle(head: ListNode) -> Optional[ListNode]:
             while it is not cycle_len_advanced_iter:
                 it = it.next
                 cycle_len_advanced_iter = cycle_len_advanced_iter.next
-            return it   # iter is the start of the cycle.
-    return None # No cycle
+            return it  # iter is the start of the cycle.
+    return None  # No cycle

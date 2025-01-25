@@ -5,7 +5,6 @@ import threading
 
 
 class OddEvenMonitor(threading.Condition):
-
     ODD_TURN = True
     EVEN_TURN = False
 

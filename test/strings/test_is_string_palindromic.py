@@ -2,6 +2,7 @@
 
 
 from nose.tools import assert_equal
+
 from ..is_string_palindromic import is_palindromic
 
 

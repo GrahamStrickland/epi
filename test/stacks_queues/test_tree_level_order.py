@@ -24,7 +24,7 @@ def test_binary_tree_depth_order() -> bool:
     A = BinaryTreeNode(314, B, I)
 
     obs = binary_tree_depth_order(A)
-    exp = [[314], [6,6], [271,561,2,271], [28,0,3,1,28], [17,401,257], [641]]
+    exp = [[314], [6, 6], [271, 561, 2, 271], [28, 0, 3, 1, 28], [17, 401, 257], [641]]
 
     return True if obs == exp else False
 

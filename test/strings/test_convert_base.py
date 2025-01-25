@@ -2,6 +2,7 @@
 
 
 from nose.tools import assert_equal
+
 from ..convert_base import convert_base
 
 
@@ -13,7 +14,7 @@ def test_convert_base0() -> None:
     exp = "1A7"
     assert_equal(obs, exp)
 
-    
+
 def test_convert_base1() -> None:
     num_as_string = "10101100"
     b1 = 2

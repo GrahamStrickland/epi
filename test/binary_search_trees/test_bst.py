@@ -26,4 +26,3 @@ def test_search_in_bst0():
     exp = J
 
     assert obs == exp
-

@@ -4,7 +4,6 @@
 from src.binary_trees.binary_tree import BinaryTreeNode
 from src.binary_trees.lowest_common_ancestor_with_parent import lca
 
-
 # Create binary tree.
 M = BinaryTreeNode(None, 641)
 N = BinaryTreeNode(None, 257)
@@ -50,4 +49,3 @@ def test_lca2() -> None:
     obs = lca(M, P)
     exp = I
     assert obs == exp
-

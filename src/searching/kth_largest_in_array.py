@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 
-import random
 import operator
+import random
 from typing import List
 
 
@@ -39,7 +39,7 @@ def find_kth_largest(k: int, A: List[int]) -> int:
             return A[new_pivot_idx]
         elif new_pivot_idx > k - 1:
             right = new_pivot_idx - 1
-        else:   # new_pivot_idx < k - 1.
+        else:  # new_pivot_idx < k - 1.
             left = new_pivot_idx + 1
 
     return find_kth(operator.gt)

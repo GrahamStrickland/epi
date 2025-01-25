@@ -3,9 +3,7 @@
 
 import collections
 
-
-MatchResult = collections.namedtuple('MatchResult',
-                                    ('winning_team', 'losing_team'))
+MatchResult = collections.namedtuple("MatchResult", ("winning_team", "losing_team"))
 
 
 def can_team_a_beat_team_b(matches, team_a, team_b):
@@ -24,4 +22,3 @@ def can_team_a_beat_team_b(matches, team_a, team_b):
         return any(is_reachable_dfs(graph, team, dest) for team in graph[curr])
 
     return is_reachable_dfs(build_graph(), team_a, team_b)
-

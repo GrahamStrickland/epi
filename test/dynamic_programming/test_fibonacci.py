@@ -18,10 +18,10 @@ def test_fibonacci1() -> None:
 
     assert obs == exp
 
+
 def test_fibonacci2() -> None:
     num = 10
     obs = fibonacci(num)
     exp = 55
 
     assert obs == exp
-

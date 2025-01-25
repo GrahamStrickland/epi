@@ -3,7 +3,6 @@
 
 from odd_even_threads import *
 
-
 monitor = OddEvenMonitor()
 odd_thread = OddThread(monitor)
 even_thread = EvenThread(monitor)

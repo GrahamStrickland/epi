@@ -2,11 +2,13 @@
 
 
 from typing import Optional
+
 from .linked_list import *
 
 
-def merge_two_sorted_lists(L1: Optional[ListNode],
-        L2: Optional[ListNode]) -> Optional[ListNode]:
+def merge_two_sorted_lists(
+    L1: Optional[ListNode], L2: Optional[ListNode]
+) -> Optional[ListNode]:
     # Creates a placeholder for the result.
     dummy_head = tail = ListNode()
 

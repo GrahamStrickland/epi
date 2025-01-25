@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
 
+from typing import List
+
 from nose.tools import assert_equal
+
 from .linked_list import *
 from .sorted_lists_merge import merge_two_sorted_lists
-from typing import List
 
 
 def merge_and_compare(L1_arr: List[int], L2_arr: List[int]) -> bool:
@@ -16,7 +18,6 @@ def merge_and_compare(L1_arr: List[int], L2_arr: List[int]) -> bool:
         current = ListNode(L1_arr.pop(), next=None)
         trail_current = ListNode(L1.next, next=current)
         insert_after(trail_current, current)
-
 
     # Copy elements of L2_arr into L2 linked list
     L2 = ListNode(data=0, next=None)
@@ -35,7 +36,7 @@ def merge_and_compare(L1_arr: List[int], L2_arr: List[int]) -> bool:
     current = L3
     i = 0
     while current.data != 0:
-        if (L3_arr[i] != current.data):
+        if L3_arr[i] != current.data:
             return False
         current = current.next
         i += 1
@@ -43,29 +44,29 @@ def merge_and_compare(L1_arr: List[int], L2_arr: List[int]) -> bool:
 
 
 def test_merge_two_sorted_lists0():
-    L1 = [2,5,7]
-    L2 = [3,11]
-    obs = merge_and_compare(L1,L2)
+    L1 = [2, 5, 7]
+    L2 = [3, 11]
+    obs = merge_and_compare(L1, L2)
     exp = True
-    assert_equal(obs,exp)
+    assert_equal(obs, exp)
 
 
 def test_merge_two_sorted_lists1():
-    L1 = [2,45,190,2001]
-    L2 = [1,2,3,4,5,6,7,8,9,10]
-    obs = merge_and_compare(L1,L2)
+    L1 = [2, 45, 190, 2001]
+    L2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    obs = merge_and_compare(L1, L2)
     exp = True
 
 
 def test_merge_two_sorted_lists2():
     L1 = [1]
     L2 = [1]
-    obs = merge_and_compare(L1,L2)
+    obs = merge_and_compare(L1, L2)
     exp = True
 
 
 def test_merge_two_sorted_lists3():
     L1 = [1]
     L2 = [1000, 20000, 4000000]
-    obs = merge_and_compare(L1,L2)
+    obs = merge_and_compare(L1, L2)
     exp = True

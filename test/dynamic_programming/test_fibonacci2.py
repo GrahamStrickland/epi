@@ -25,4 +25,3 @@ def test_fibonacci2() -> None:
     exp = 55
 
     assert obs == exp
-

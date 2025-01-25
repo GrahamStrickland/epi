@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-__all__ = ['ContactList', 'merge_contact_lists']
+__all__ = ["ContactList", "merge_contact_lists"]
 
 
 from typing import List
@@ -9,9 +9,9 @@ from typing import List
 
 class ContactList:
     def __init__(self, names):
-        '''
+        """
         names is a list of strings.
-        '''
+        """
         self.names = names
 
     def __hash__(self):
@@ -24,7 +24,7 @@ class ContactList:
 
 
 def merge_contact_lists(contacts: List[ContactList]) -> ContactList:
-    '''
+    """
     contacts is a list of ContactList
-    '''
+    """
     return list(set(contacts))

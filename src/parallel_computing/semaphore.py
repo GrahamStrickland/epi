@@ -4,7 +4,7 @@
 import threading
 
 
-class Semaphore():
+class Semaphore:
     def __init__(self, max_available):
         self.cv = threading.Condition()
         self.MAX_AVAILABLE = max_available
@@ -12,7 +12,7 @@ class Semaphore():
 
     def acquire(self):
         self.cv.acquire()
-        while (self.taken == self.MAX_AVAILABLE):
+        while self.taken == self.MAX_AVAILABLE:
             self.cv.wait()
         self.taken += 1
         self.cv.release()

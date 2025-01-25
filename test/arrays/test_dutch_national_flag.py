@@ -62,4 +62,3 @@ def is_partitioned(pivot: int, A: list[int]) -> bool:
             if i <= pivot or i == pivot:
                 return False
     return True
-

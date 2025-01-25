@@ -1,9 +1,10 @@
 #!usr/bin/env python3
 
 
-from print_linked_list_in_reverse import print_linked_list_in_reverse
-from linked_list import ListNode, insert_after
 from typing import List
+
+from linked_list import ListNode, insert_after
+from print_linked_list_in_reverse import print_linked_list_in_reverse
 
 
 def linked_list_from_arr(arr: List[int]) -> ListNode:
@@ -22,7 +23,7 @@ def linked_list_from_arr(arr: List[int]) -> ListNode:
 
 def test_print_linked_list_in_reverse() -> None:
     # Create list
-    head = linked_list_from_arr([1,2,3,4,5])
+    head = linked_list_from_arr([1, 2, 3, 4, 5])
     print_linked_list_in_reverse(head)
 
 

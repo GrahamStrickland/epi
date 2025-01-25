@@ -1,11 +1,13 @@
 #!usr/bin/env python3
 import collections
+
 from .binary_tree import BinaryTreeNode
 
 
 def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:
     BalancedStatusWithHeight = collections.namedtuple(
-            'BalancedStatusWithHeight', ('balanced', 'height'))
+        "BalancedStatusWithHeight", ("balanced", "height")
+    )
 
     # Frst value of the return value indicates if tree is balanced, and if
     # balanced the second value of the return value is the height of the tree.
@@ -26,4 +28,3 @@ def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:
         return BalancedStatusWithHeight(is_balanced, height)
 
     return check_balanced(tree).balanced
-
